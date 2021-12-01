@@ -1,6 +1,6 @@
-<h1 id="page-title">
+<h1 id="site-title">
 {% if page.permalink == '/' %}
-  Hello, I'm Tom! 👋🏻
+  Hello, I'm Tom! <img src="/assets/img/twemoji-peace.png" alt="Emoji peace sign">
 {% else %}
   {{ site.title }}
 {% endif %}
@@ -9,27 +9,30 @@
 <nav>
   <ul>
     <li>
-      <a href="/about/" {% if page.url == '/about/' %}class="c" {% endif %}> About</a><br>
+      <a href="/about/" {% if page.url == '/about/' %}class="current-page" {% endif %}> About</a><br>
     </li>
     <li>
-      <a href="/projects/" {% if page.url == '/projects/' %}class="c" {% endif %}>Projects</a><br>
+      <a href="/projects/" {% if page.url == '/projects/' %}class="current-page" {% endif %}>Projects</a><br>
     </li>
     <li>
-      <a href="/uses/" {% if page.url == '/uses/' %}class="c" {% endif %}>Uses</a><br>
-    </li>
-
-    <li>
-      &mdash;
+      <a href="/uses/" {% if page.url == '/uses/' %}class="current-page" {% endif %}>Uses</a><br>
     </li>
 
     <li>
-      <a href="https://twitter.com/{{ site.twitter }}"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i>tw</a><br>
+      <a href="https://cv.trobinson.me">CV <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(external link)</span></a><br>
+    </li>
+
+    <li>
+      <a href="https://wiki.tomr.me">Wiki <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(external link)</span></a><br>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="https://github.com/{{ site.github }}" class="social"><i class="fab fa-fw fa-github" aria-hidden="true"></i>gh</a><br>
     </li>
     <li>
-      <a href="https://github.com/{{ site.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>gh</a><br>
-    </li>
-    <li>
-      <a href="/flickr/" {% if page.url contains '/flickr' %}class="c" {% endif %}><i class="fab fa-fw fa-flickr" aria-hidden="true"></i>fl</a><br>
+      <a href="/flickr/" class="social {% if page.url contains '/flickr' %}current-page{% endif %}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i>fl</a><br>
     </li>
   </ul>
 </nav>
