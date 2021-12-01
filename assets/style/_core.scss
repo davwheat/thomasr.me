@@ -23,7 +23,7 @@ body {
     @include on-big-screen {
         &.wide {
             main {
-                max-width: #{$width * 3}em;
+                max-width: calc(100% - 16px);
             }
         }
 
