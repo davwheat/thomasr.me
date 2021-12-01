@@ -5,7 +5,7 @@
 <head>
     {% include head.html %}
 </head>
-<body class="{% if page.wide == 'ish' %}wide-ish{% elsif page.wide %}wide{% endif %}">
+<body class="{% if page.wide == 'ish' %}wide-ish{% elsif page.wide %}wide{% endif %}" {% if page.id %}id="{{ page.id }}"{% endif %}>
     <header>
         {% include header.html %}
     </header>
