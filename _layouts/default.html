@@ -1,11 +1,22 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     {% include head.html %}
 </head>
-<body>
-    {{ content }}
+<body class="{% if page.wide == 'ish' %}wide-ish{% elsif page.wide %}wide{% endif %}">
+    <header>
+        {% include header.html %}
+    </header>
+    
+    {% include page-meta.html %}
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        {% include footer.html %}
+    </footer>
 </body>
 </html>

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Projects & Things
+description: Neat stuff I've made, done and created
+permalink: /projects/
+id: projects
+---
+
+<ul id="projects">
+    {% for p in site.projects %}
+        <li class="project">
+            <!-- <img class="project-image" src="/img/projects/{{p.image}}" alt="Screenshot of {{p.title}}"> -->
+            <a {% if p.title_link %}href="{{ p.title_link | replace: "#GITHUB#", site.github }}" target="_blank" rel="noopener noreferrer"{% endif %} class="project-title">
+            {{ p.title }} {% if p.title_link %}<i class="fas fa-external-link-alt" aria-hidden="true"></i>{% endif %}</a>
+            <span class="project-langs">
+                {% for link in p.links %}
+                    {{ link | replace: "#GITHUB#", site.github }}
+                    {% if forloop.last == false %}&bull;{% endif %}
+                    {% if forloop.last %}&mdash;{% endif %}
+                {% endfor %}
+                
+                {% for lang in p.languages %}
+                    {{ lang }}
+                    {% if forloop.last == false %}&bull;{% endif %}
+                {% endfor %}
+            </span>
+            <p>{{ p.content | strip_html }}</p>
+        </li>
+    {% endfor %}
+</ul>
+
+<hr>
+
+<h3>Other Projects</h3>
+<p>Quality nor source code guaranteed.</p>
+<ul>
+    <li><a href="/ofqualgradecalculator" target="_blank" rel="noopener noreferrer">2020 Ofqual Grade Calculator</a></li>
+    <li><a href="/redditunsubinactive" target="_blank" rel="noopener noreferrer">Unsubscribe from Inactive Subreddits</a> (<a href="https://github.com/{{site.github}}/redditunsubinactive" target="_blank" rel="noopener noreferrer">code</a>)</li>
+    <li><a href="/ubuntucodenamegen" target="_blank" rel="noopener noreferrer">Ubuntu Codename Generator</a> (<a href="https://github.com/{{site.github}}/ubuntucodenamegen ">code</a>)</li>
+    <li><a href="/n3soundboard" target="_blank" rel="noopener noreferrer">NerdCubed Soundboard</a></li>
+    <li><a href="/skyepg" target="_blank" rel="noopener noreferrer">Sky EPG Recreation</a></li>
+    <li><a href="/flickr-mm" target="_blank" rel="noopener noreferrer">Flickr Average Focal Length Calculator</a> (<a href="https://github.com/{{site.github}}/flickr-mm" target="_blank" rel="noopener noreferrer">code</a>)</li>
+    <li><a href="/shesaid" target="_blank" rel="noopener noreferrer">1975 (She Said)</a></li>
+</ul>
+
+<hr>
+
+<h3>Looking for something not listed here?</h3>
+<p>It might be floating around on <a href="https://github.com/{{ site.github }}">GitHub</a>! Do get in touch if there's something you want to see that's missing.</p>

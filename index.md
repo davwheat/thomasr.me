@@ -1,10 +1,8 @@
 ---
 layout: default
 title: "Home"
+description: "This is the homepage"
 ---
-
-# Hello, World!
-This is the homepage.
 
 # Markdown: Syntax
 

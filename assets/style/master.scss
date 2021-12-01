@@ -1,0 +1,23 @@
+---
+---
+
+@function light-tint($col, $pc) { @return mix(#fff, $col, $pc); }
+@function dark-tint($col, $pc) { @return mix(#000, $col, $pc); }
+
+@mixin in-light-mode() {
+    @media (prefers-color-scheme: light) { @content; }
+}
+@mixin on-small-screen() {
+    @media screen and (max-width: 80em) { @content; }
+}
+@mixin on-big-screen() {
+    @media screen and (min-width: 80em) { @content; }
+}
+
+$accent: #fa84b7;
+$width: 40; // em
+// $accent: #73a9c2;
+
+@import '_core.scss';
+@import '_header.scss';
+@import 'page_meta.scss';

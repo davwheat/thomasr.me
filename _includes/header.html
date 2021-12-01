@@ -1,0 +1,30 @@
+<span>{{ site.title }}</span>
+
+<nav>
+  <ul>
+    <li>
+      <a href="/about/" {% if page.url == '/about/' %}class="c" {% endif %}> About</a><br>
+    </li>
+    <li>
+      <a href="/projects/" {% if page.url == '/projects/' %}class="c" {% endif %}>Projects</a><br>
+    </li>
+    <li>
+      <a href="/uses/" {% if page.url == '/uses/' %}class="c" {% endif %}>Uses</a><br>
+    </li>
+
+    <li>
+      &mdash;
+    </li>
+
+    <li>
+      <a href="https://twitter.com/{{ site.twitter }}"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i>tw</a><br>
+    </li>
+    <li>
+      <a href="https://github.com/{{ site.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>gh</a><br>
+    </li>
+    <li>
+      <a href="/flickr/" {% if page.url contains '/flickr' %}class="c" {% endif %}><i class="fab fa-fw fa-flickr"
+          aria-hidden="true"></i>fl</a><br>
+    </li>
+  </ul>
+</nav>

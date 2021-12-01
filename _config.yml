@@ -1,4 +1,4 @@
-title: trobinson.me
+title: thomas robinson
 
 future: true
 baseurl: ""
@@ -18,7 +18,7 @@ youtube: dnomaid
 permalink: /:year/:title/
 
 sass:
-  sass_dir: css
+  sass_dir: assets/style
   style: compressed
 
 highlighter: rouge
