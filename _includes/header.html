@@ -1,10 +1,10 @@
-<span>
+<h1 id="page-title">
 {% if page.permalink == '/' %}
   Hello, I'm Tom! 👋🏻
 {% else %}
   {{ site.title }}
 {% endif %}
-</span>
+</h1>
 
 <nav>
   <ul>
@@ -29,8 +29,7 @@
       <a href="https://github.com/{{ site.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>gh</a><br>
     </li>
     <li>
-      <a href="/flickr/" {% if page.url contains '/flickr' %}class="c" {% endif %}><i class="fab fa-fw fa-flickr"
-          aria-hidden="true"></i>fl</a><br>
+      <a href="/flickr/" {% if page.url contains '/flickr' %}class="c" {% endif %}><i class="fab fa-fw fa-flickr" aria-hidden="true"></i>fl</a><br>
     </li>
   </ul>
 </nav>

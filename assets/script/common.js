@@ -1,5 +1,6 @@
 // this is all taken from the old site
 
+const hash = window.location.hash;
 
 //-----------contact alert box------------------------------------------
 if(hash === '#contact') window.location = '/about';
