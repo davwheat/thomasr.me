@@ -10,7 +10,7 @@ linkElement.href = `/assets/style/colours/${colourNames[randIndex]}.css`;
 if(localStorage.getItem('colours') !== "off") {
     document.head.appendChild(linkElement);
     document.querySelector('meta[name="theme-color"]').content = colourCodes[randIndex];
-    document.getElementById('og-stylesheet').remove();
+    window.setTimeout(function(){document.getElementById('og-stylesheet').remove();},250);
 } else {
     document.getElementById('bw-button').href = 'javascript:enableColours()';
     document.getElementById('bw-button').innerHTML = '<i class="fas fa-fw fa-tint" aria-hidden="true"></i> go colourful';
