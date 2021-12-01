@@ -24,7 +24,7 @@ function konami() {
 //-----------analytics acknowledgement----------------------------------
 function acknowledgeAnalytics() {
   localStorage.setItem('cf-analytics-message', 'acknowledged');
-  document.getElementById('cf-analytics-message').remove();
+  if(document.getElementById('cf-analytics-message')) document.getElementById('cf-analytics-message').remove();
 }
 
 if(localStorage.getItem('cf-analytics-message') == 'acknowledged') {
