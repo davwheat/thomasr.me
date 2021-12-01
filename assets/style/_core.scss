@@ -15,7 +15,7 @@ body {
     }
 
     font-size: 1.1em;
-    font-family: "Merriweather Sans", "Verdana", "Tahoma", "Helvetica", sans-serif;
+    font-family: $fn-copy;
     font-weight: 400;
     text-transform: lowercase;
 
@@ -39,6 +39,7 @@ h1,
 h2,
 h3,
 h4 {
+    font-family: $fn-headings;
     margin-bottom: 0;
 
     &:not(:first-child) {
@@ -47,7 +48,9 @@ h4 {
 }
 
 h1 {
-    font-weight: 800;
+    // 900 for serif, 800 for sans
+    // font-weight: 800;
+    font-weight: 900;
 }
 
 h2 {

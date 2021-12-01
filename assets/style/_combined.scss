@@ -11,8 +11,9 @@
     @media screen and (min-width: 80em) { @content; }
 }
 
+$fn-headings: 'Merriweather', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+$fn-copy: 'Merriweather Sans', 'Verdana', 'Tahoma', 'Helvetica', sans-serif;
 $width: 40; // em
-// $accent: #73a9c2;
 
 @import '_core.scss';
 @import '_header.scss';

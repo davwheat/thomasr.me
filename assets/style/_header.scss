@@ -16,7 +16,9 @@ header {
         background-color: light-tint($accent, 90%);
     }
 
-    span {
+    h1 {
+        margin: 0;
+        font-family: $fn-headings;
         font-size: 1.2em;
         font-weight: 900;
         color: $accent;
