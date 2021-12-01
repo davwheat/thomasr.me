@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Things I Use
-description: what ~tech~ do I use
+title: Uses Page
+description: 'Hardware and Software I make use of on a regular basis '
 permalink: "/uses/"
 redirect_from:
 - "/tech/"
 - "/faq/tech/"
 - "/devices/"
 - "/faq/devices/"
-
-menus:
+menu:
   header:
     title: Uses
     weight: 3
     identifier: uses
+
 ---
-I saw that a "uses page" was a [cool thing](https://uses.tech/) people were doing, so here's mine &mdash; a handy page of the things I use, just in case that's the sort of thing that tickles your fancy.
+I saw that a "uses page" was a [cool thing](https://uses.tech/) people were doing, so here's mine — a handy page of the things I use, just in case that's the sort of thing that tickles your fancy.
 
 ***
 
@@ -34,9 +34,6 @@ An iPhone 12 mini lives in my pocket, along with the obligatory Airpods. On my w
 
 My computers run Windows 10 Pro because I'm lazy, though the ThinkPad has a Manjaro dualboot and I've played around with Hackintoshing.
 
-I browse with Firefox on desktop and Safari on my phone. I type in VS Code and Notion. GitKraken is my Git GUI of choice and I use Powershell/Debian in the Windows Terminal.
+I browse with Firefox on desktop and Safari on my phone. For development, VS Code is where I type and GitKraken is my Git GUI of choice. I use Powershell/Debian in the Windows Terminal.
 
-
-***
-
-_Last updated: 18th Oct 2021_
+For productivity and organisation, Notion is exceptional. Have a look at the Wiki in the menu!
