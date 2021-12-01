@@ -15,7 +15,7 @@ document.addEventListener('keydown', e => {
 });
 
 function konami() {
-  document.querySelector('aside#topbar').classList.add('bent');
+  document.querySelector('aside#bi-bar').classList.add('bent');
   document.querySelector('link[rel="shortcut icon"]').href = '/img/twemoji-rainbow.png';
   document.title = 'lgbtq+ moment <3';  
 }
