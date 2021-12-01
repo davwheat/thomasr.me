@@ -9,6 +9,11 @@ redirect_from:
 - "/devices/"
 - "/faq/devices/"
 
+menus:
+  header:
+    title: Uses
+    weight: 3
+    identifier: uses
 ---
 I saw that a "uses page" was a [cool thing](https://uses.tech/) people were doing, so here's mine &mdash; a handy page of the things I use, just in case that's the sort of thing that tickles your fancy.
 

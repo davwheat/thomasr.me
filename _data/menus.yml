@@ -1,0 +1,10 @@
+header:
+  - url: https://cv.trobinson.me/
+    title: CV
+    identifier: cv
+    weight: 4
+
+  - url: https://wiki.tomr.me/
+    title: Wiki
+    identifier: wiki
+    weight: 5

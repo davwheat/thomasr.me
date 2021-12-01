@@ -2,7 +2,7 @@
 layout: default
 title: "Markdown Test Page"
 description: "For testing styling!"
-permalink: /md-test
+permalink: /md-test/
 ---
 
 # Markdown: Syntax
