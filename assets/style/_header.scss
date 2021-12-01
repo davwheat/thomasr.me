@@ -39,6 +39,10 @@ header {
                 text-decoration: none;
                 padding-bottom: 2px;
 
+                &[href], &[href]:hover {
+                    text-decoration: none;
+                }
+
                 i {
                     filter: brightness(1.2);
                 }
@@ -49,6 +53,7 @@ header {
         
                 &:hover,
                 &.c {
+                    color: $accent;
                     padding-bottom: 0;
                     
                     @include on-big-screen {

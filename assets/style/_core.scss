@@ -59,24 +59,27 @@ p {
 }
 
 a {
-    text-decoration: underline;
     color: light-tint($accent, 70%);
 
     @include in-light-mode {
         color: dark-tint($accent, 70%);
     }
 
-    &:hover {
-        text-decoration: none;
-    }
-
-    &:focus {
-        background-color: light-tint($accent, 80%);
-        color: dark-tint($accent, 90%);
+    &[href] {
+        text-decoration: underline;
         
-        @include in-light-mode {
-            background-color: dark-tint($accent, 80%);
-            color: light-tint($accent, 90%);
+        &:hover {
+            text-decoration: none;
+        }
+    
+        &:focus {
+            background-color: light-tint($accent, 80%);
+            color: dark-tint($accent, 90%);
+            
+            @include in-light-mode {
+                background-color: dark-tint($accent, 80%);
+                color: light-tint($accent, 90%);
+            }
         }
     }
 }
@@ -97,4 +100,33 @@ main {
     max-width: #{$width}em;
     margin: 0 auto;
     text-transform: none;
+}
+
+footer {
+    max-width: #{$width / 2}em;
+    margin: 2em auto;
+    padding: 0.5em;
+
+    background-color: dark-tint($accent, 90%);
+    @include in-light-mode {
+        background-color: light-tint($accent, 90%);
+    }
+
+    text-align: center;
+    font-size: 0.8em;
+    border-radius: 4px;
+
+    opacity: 0.8;
+    &:hover { opacity: 1; }
+
+    p {
+        margin: 0;
+    }
+
+    a[href] {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
