@@ -7,7 +7,7 @@ redirect_from:
   - /faq/
   - /contact/
   - /who/
-  
+
 id: about
 
 menus:
@@ -39,7 +39,7 @@ Why not?
 No, although I think he picked a nice alias to go by. I'm also not a basketballer, footballer or politician &mdash; turns out it's a pretty common name.
 
 <script>
-const email = atob("aGlAdG9tci5tZQ==")
+const email = atob("aGlAdG9tci5tZQ==");
 document.getElementById('js-email').innerHTML = email;
 document.getElementById('js-email').href = `mailto:${email}`;
 </script>
