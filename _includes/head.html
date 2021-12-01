@@ -24,7 +24,9 @@
 
 <meta name="theme-color" content="#ea85ce">
 
-<title>{{ page.title }} &mdash; {{ site.title }}</title>
+<title>{% if page.notitle != true %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
+
+<link rel="shortcut icon" href="/assets/img/blondtommo.png" type="image/x-icon">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,4 +35,4 @@
 <link rel="stylesheet" href="https://ka-f.fontawesome.com/releases/v6.0.0-beta1/css/free-v4-font-face.min.css?token=a4db9daed8">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700;800&display=swap" rel="stylesheet"> 
 
-<link rel="stylesheet" href="/assets/style/master.css">
+<link rel="stylesheet" href="/assets/style/colours/pink.css" id="og-stylesheet">

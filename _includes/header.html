@@ -1,4 +1,10 @@
-<span>{{ site.title }}</span>
+<span>
+{% if page.permalink == '/' %}
+  Hello, I'm Tom! 👋🏻
+{% else %}
+  {{ site.title }}
+{% endif %}
+</span>
 
 <nav>
   <ul>

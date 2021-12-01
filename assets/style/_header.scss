@@ -23,7 +23,6 @@ header {
         li {
             display: inline-block;
             padding: 0;
-            transition: all 0.2s linear;
 
             @include on-big-screen {
                 &:not(:first-of-type) {
@@ -38,7 +37,7 @@ header {
             a {
                 display: inline-block;
                 text-decoration: none;
-                border-bottom: 2px solid #{$accent}00;
+                padding-bottom: 2px;
 
                 i {
                     filter: brightness(1.2);
@@ -50,6 +49,8 @@ header {
         
                 &:hover,
                 &.c {
+                    padding-bottom: 0;
+                    
                     @include on-big-screen {
                         border-bottom: 2px solid $accent;
                     }
