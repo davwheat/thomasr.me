@@ -1,5 +1,34 @@
 // most of this copied from old site
 
+.note {
+    position: sticky;
+    top: 0;
+    margin: 0.5em 0;
+    padding: 8px;
+
+    background-color: #111;
+    color: #efefef;
+
+    p {
+        margin: 0;
+    }
+
+    &.medium {
+        border-left: 4px solid green;
+        background-color: darkgreen;
+    }
+
+    &.info {
+        border-left: 4px solid blue;
+        background-color: darkblue;
+    }
+
+    &.warn {
+        border-left: 4px solid red;
+        background-color: darkred;
+    }
+}
+
 body#projects {
     ul {
         margin: 0;

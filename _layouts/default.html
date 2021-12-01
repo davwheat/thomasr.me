@@ -11,15 +11,21 @@
     </header>
     
     {% if page.nometa != true %}
-        {% include page-meta.html %}
+        {% if page.layout == 'post' %}
+            {% include post-meta.html %}
+        {% else %}
+            {% include page-meta.html %}
+        {% endif %}
     {% endif %}
     <main>
         {{ content }}
     </main>
 
+    {% if page.nometa != true %}
     <footer>
         {% include footer.html %}
     </footer>
+    {% endif %}
 
     <script src="/assets/script/colours.js"></script>
 

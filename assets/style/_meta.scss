@@ -1,8 +1,6 @@
-aside#page-meta {
+aside#page-meta, aside#post-meta {
     max-width: #{$width}em;
-    margin: 0 auto;
-
-    margin-bottom: 1em;
+    margin: 1em auto;
     padding-top: 4px;
 
     h1 {
@@ -23,5 +21,19 @@ aside#page-meta {
         
         font-size: 1.5em;
         margin-top: 0;
+    }
+}
+
+aside#post-meta {
+    h3 {
+        font-size: 1em;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 8px;
+        mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+        margin-bottom: -5vh;
     }
 }
