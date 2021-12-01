@@ -1,0 +1,7 @@
+---
+---
+{% if jekyll.environment != "production" %}User-agent: *
+Disallow: /
+# this isn't a production site, please go away xoxo
+{% else %}# beep boop!
+{% endif %}
