@@ -7,7 +7,14 @@ redirect_from:
   - /faq/
   - /contact/
   - /who/
+  
 id: about
+
+menus:
+  header:
+    title: About
+    weight: 1
+    identifier: about
 ---
 
   Hello! My name is Thomas, but it's easier to write Tom. This is my (superfluous) home on the internet.
