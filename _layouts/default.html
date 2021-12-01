@@ -1,11 +1,40 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     {% include head.html %}
 </head>
-<body>
-    {{ content }}
+<body class="{% if page.wide == 'ish' %}wide-ish{% elsif page.wide %}wide{% endif %}" {% if page.id %}id="{{ page.id }}"{% endif %}>
+    <aside id="bi-bar" aria-hidden="true"></aside>
+    <header>
+        {% include header.html %}
+    </header>
+    
+    {% if page.nometa != true %}
+        {% if page.layout == 'post' %}
+            {% include post-meta.html %}
+        {% else %}
+            {% include page-meta.html %}
+        {% endif %}
+    {% endif %}
+    <main>
+        {{ content }}
+    </main>
+
+    {% if page.nometa != true %}
+    <footer>
+        {% include footer.html %}
+    </footer>
+    {% endif %}
+
+    <script src="/assets/script/common.js"></script>
+    <script src="/assets/script/colours.js"></script>
+
+    {% if page.scripts %}
+    {% for script in page.scripts %}
+        <script src="{{ script }}"></script>
+    {% endfor %}
+    {% endif %}
 </body>
 </html>

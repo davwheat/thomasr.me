@@ -1,0 +1,15 @@
+@include on-big-screen {
+  body {
+    &.wide {
+      main {
+        max-width: #{$width * 3};
+      }
+    }
+  
+    &.wide-ish {
+      main {
+        max-width: #{$width * 2};
+      }
+    }
+  }
+}

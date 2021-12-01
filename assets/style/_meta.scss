@@ -1,0 +1,39 @@
+aside#page-meta, aside#post-meta {
+    max-width: #{$width}em;
+    margin: 1em auto;
+    padding-top: 4px;
+
+    h1 {
+        color: light-tint($accent, 70%);
+        @include in-light-mode {
+            color: dark-tint($accent, 70%);
+        }
+
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    h2 {
+        color: light-tint($accent, 75%);
+        @include in-light-mode {
+            color: dark-tint($accent, 75%);
+        }
+        
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+}
+
+aside#post-meta {
+    h3 {
+        font-size: 1em;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 8px;
+        mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+        margin-bottom: -5vh;
+    }
+}

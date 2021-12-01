@@ -1,0 +1,106 @@
+header {
+    // max-width: #{$width}em;
+    // margin: 0 auto;
+
+    // padding-left: 8px;
+    // border-left: 4px solid $accent;
+
+    max-width: calc(#{$width}em - 2em);
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 0 0 4px 4px;
+
+    background-color: dark-tint($accent, 90%);
+    @include in-light-mode {
+        background-color: light-tint($accent, 90%);
+    }
+
+    h1 {
+        margin: 0;
+        font-family: $fn-headings;
+        font-size: 1.2em;
+        font-weight: 900;
+        color: $accent;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: none;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            padding: 0;
+
+            @include on-big-screen {
+                &:not(:first-of-type) {
+                    margin-left: 8px;
+                }
+            }
+
+            @include on-small-screen {
+                margin: 4px 0;
+            }
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                padding-bottom: 2px;
+
+                &[href], &[href]:hover {
+                    text-decoration: none;
+                }
+
+                i {
+                    filter: brightness(1.2);
+                }
+        
+                @include on-small-screen {
+                    padding: 4px 0;
+                }
+        
+                &:hover,
+                &.c {
+                    color: $accent;
+                    padding-bottom: 0;
+                    
+                    @include on-big-screen {
+                        border-bottom: 2px solid $accent;
+                    }
+                    @include on-small-screen {
+                        border-left: 4px solid $accent;
+                        padding-left: 4px;
+                    }
+                }
+            }
+        }
+
+        @include on-small-screen {
+            flex-direction: column;
+
+            li {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
+aside#bi-bar {
+    display: block;
+    max-width: #{$width}em;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #d60270;
+    background: linear-gradient(90deg, #d60270 0%, #9b4f96 50%, #0038a8 100%);
+    border-radius: 0;
+
+    &.bent {
+        background: linear-gradient(to right,orange,yellow,green,cyan,blue,violet);
+    }
+}
