@@ -10,7 +10,6 @@
         {% include header.html %}
     </header>
     
-    {% include page-meta.html %}
     <main>
         {{ content }}
     </main>
@@ -18,5 +17,11 @@
     <footer>
         {% include footer.html %}
     </footer>
+
+    {% if page.scripts %}
+    {% for script in page.scripts %}
+        <script src="{{ script }}"></script>
+    {% endfor %}
+    {% endif %}
 </body>
 </html>
