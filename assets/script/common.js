@@ -20,3 +20,14 @@ function konami() {
   document.title = 'lgbtq+ moment <3';  
 }
 //----------------------------------------------------------------------
+
+//-----------analytics acknowledgement----------------------------------
+function acknowledgeAnalytics() {
+  localStorage.setItem('cf-analytics-message', 'acknowledged');
+  document.getElementById('cf-analytics-message').remove();
+}
+
+if(localStorage.getItem('cf-analytics-message') == 'acknowledged') {
+  acknowledgeAnalytics();
+}
+//----------------------------------------------------------------------
