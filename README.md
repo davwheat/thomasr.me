@@ -1,19 +1,5 @@
-# Jekyll Example
+# TRobinson.me
 
-This directory is a brief example of a [Jekyll](https://jekyllrb.com/) site that can be deployed with Vercel and zero configuration.
+This is the source code for my website!
 
-## Deploy Your Own
-
-Deploy your own Jekyll project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/jekyll&template=jekyll)
-
-_Live Example: https://jekyll.now-examples.now.sh_
-
-### How We Created This Example
-
-To get started with Jekyll for deployment with Vercel, you can use the [Jekyll CLI](https://jekyllrb.com/docs/usage/) to initialize the project:
-
-```shell
-$ jekyll new my-blog
-```
+It's written in Jekyll and deployed/hosted using Vercel. The master branch is automatically deployed to `master.trobinson.me` and the prod branch to the root domain.
