@@ -129,31 +129,3 @@ main {
 
 }
 
-footer {
-    max-width: #{$width}em;
-    margin: 2em auto;
-    padding: 1em 0;
-
-    background-color: dark-tint($accent, 90%);
-    @include in-light-mode {
-        background-color: light-tint($accent, 90%);
-    }
-
-    text-align: center;
-    font-size: 0.8em;
-    border-radius: 4px;
-
-    opacity: 0.8;
-    &:hover { opacity: 1; }
-
-    p {
-        margin: 0;
-    }
-
-    a[href] {
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-}

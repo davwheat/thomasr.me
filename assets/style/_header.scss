@@ -1,9 +1,20 @@
 header {
-    max-width: #{$width}em;
-    margin: 0 auto;
+    // max-width: #{$width}em;
+    // margin: 0 auto;
 
-    padding-left: 8px;
-    border-left: 4px solid $accent;
+    // padding-left: 8px;
+    // border-left: 4px solid $accent;
+
+    max-width: calc(#{$width}em - 2em);
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 0 0 4px 4px;
+
+    background-color: dark-tint($accent, 90%);
+    @include in-light-mode {
+        background-color: light-tint($accent, 90%);
+    }
 
     span {
         font-size: 1.2em;
@@ -75,5 +86,19 @@ header {
                 width: 100%;
             }
         }
+    }
+}
+
+aside#bi-bar {
+    display: block;
+    max-width: #{$width}em;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #d60270;
+    background: linear-gradient(90deg, #d60270 0%, #9b4f96 50%, #0038a8 100%);
+    border-radius: 0;
+
+    &.bent {
+        background: linear-gradient(to right,orange,yellow,green,cyan,blue,violet);
     }
 }

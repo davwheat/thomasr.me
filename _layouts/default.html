@@ -6,6 +6,7 @@
     {% include head.html %}
 </head>
 <body class="{% if page.wide == 'ish' %}wide-ish{% elsif page.wide %}wide{% endif %}" {% if page.id %}id="{{ page.id }}"{% endif %}>
+    <aside id="bi-bar" aria-hidden="true"></aside>
     <header>
         {% include header.html %}
     </header>
@@ -27,6 +28,7 @@
     </footer>
     {% endif %}
 
+    <script src="/assets/script/common.js"></script>
     <script src="/assets/script/colours.js"></script>
 
     {% if page.scripts %}
