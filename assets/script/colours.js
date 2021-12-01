@@ -2,10 +2,10 @@ const colourNames = ['pink', 'bluel', 'blued', 'orange', 'green', 'red', 'purple
 const colourCodes = ['#ff83a2', '#3dbbc6', '#3d76c6', '#c68d3d', '#3dc690', '#c6493d', '#ff83a2'];
 
 const linkElement = document.createElement('link');
-const randIndex = colours.length * Math.random() | 0;
+const randIndex = colourNames.length * Math.random() | 0;
 
 linkElement.rel = 'stylesheet';
-linkElement.href = `/assets/style/colours/${colours[randIndex]}.css`;
+linkElement.href = `/assets/style/colours/${colourNames[randIndex]}.css`;
 
 if(localStorage.getItem('colours') !== "off") {
     document.head.appendChild(linkElement);
