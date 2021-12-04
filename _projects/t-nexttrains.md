@@ -8,4 +8,4 @@ links:
     - '<a href="https://youtu.be/h7NUHLLOSes" target="_blank" rel="noopener noreferrer">watch demo</a>'
 ---
 
-Utilising the amazing RealTimeTrains API, this Google Assistant Action fetches live UK railway station departure information
+A Google Assistant Action that fetches live UK railway station departure information

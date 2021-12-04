@@ -8,4 +8,4 @@ links:
     - '<a href="https://github.com/#GITHUB#/zevvlerpc" target="_blank" rel="noopener noreferrer">view code</a>'
 ---
 
-Allows you to have your Zevvle (mobile carrier) usage stats as your Discord playing status
+Allows you to have your Zevvle (mobile carrier) usage stats as your Discord status

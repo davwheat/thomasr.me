@@ -126,11 +126,13 @@ aside#bi-bar {
     max-width: #{$width}em;
     margin: 0 auto;
     height: 2px;
-    background-color: #d60270;
-    background: linear-gradient(90deg, #d60270 0%, #9b4f96 50%, #0038a8 100%);
+    background-color: $accent;
+    // background-color: #d60270;
+    // background: linear-gradient(90deg, #d60270 0%, #9b4f96 50%, #0038a8 100%);
     border-radius: 0;
 
     &.bent {
-        background: linear-gradient(to right,orange,yellow,green,cyan,blue,violet);
+        background: linear-gradient(90deg, #d60270 0%, #9b4f96 50%, #0038a8 100%);
+        // background: linear-gradient(to right,orange,yellow,green,cyan,blue,violet);
     }
 }
