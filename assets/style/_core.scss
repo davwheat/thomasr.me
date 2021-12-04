@@ -5,6 +5,8 @@ html {
 body {
     margin: 0;
     padding: 16px;
+    overflow-x: hidden;
+
 
     background-color: dark-tint($accent, 95%);
     color: light-tint($accent, 95%);

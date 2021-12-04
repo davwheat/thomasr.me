@@ -10,4 +10,4 @@ links:
     - '<a href="https://github.com/MagicCap/MagicCap.me" target="_blank" rel="noopener noreferrer">view code</a>'
 ---
 
-Since improved by various other contributers, I created the website for MagicCap - a free and open source screenshot capture utility for macOS and Linux
+Since improved by various other contributers, I created the website for MagicCap, a free and open source screenshot capture utility for macOS and Linux

@@ -9,4 +9,4 @@ links:
     - '<a href="https://github.com/#GITHUB#/beforeyougogo" target="_blank" rel="noopener noreferrer">view code</a>'
 ---
 
-Massively WIP no-fuss flat-file PHP-based URL shortener
+A work-in-progress no-frills URL shortener that uses text files rather than a database.

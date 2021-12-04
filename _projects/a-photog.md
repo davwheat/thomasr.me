@@ -6,4 +6,4 @@ languages:
     - "&amp; Flickr Toys"
 ---
 
-I enjoy taking half-decent pictures of things whenever I'm out and about. To experiment with my Flickr photos and their metadata I've made some web-toys.
+I enjoy taking nice pictures of things whenever I'm out and about. To experiment with my Flickr photos and their metadata I've also made some web-toys.

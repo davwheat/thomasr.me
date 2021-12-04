@@ -6,4 +6,4 @@ languages:
     - '<span class="lang lang-jekyll">jekyll</span>'
 ---
 
-Proof-of-concept website for an amateur indie record label ran by a friend
+Proof-of-concept website for an amateur indie record label

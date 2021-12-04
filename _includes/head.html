@@ -1,19 +1,20 @@
 {% if page.image %}
-    <!-- page w image -->
-    {% assign metaImageURL = {{page.image}} %}
-
     {% if page.layout == 'post' %}
         <!-- blog post w image -->
         {% include legacy/image_folder.html %}
-        {% assign metaImageURL = /assets/img/posts/{{ post_img_folder }}/{{page.image}} %}
-    {% endif %}
+        {% assign metaImageURL = /assets/img/posts/{{ post_img_folder }}/{{ page.image }} %}
+    {% else %}
+        <!-- page w image -->
+        <!-- {{ page.image }} -->
+        {% capture metaImageURL %}{{ page.image }}{% endcapture %}
+        {% endif %}
 {% else %}
     <!-- page w/o image, using fallback -->
-    {% assign metaImageURL = "/assets/img/blondtommo.png" %}
+    {% assign metaImageURL = "/assets/img/beachtommo.jpg" %}
 {% endif %}
 
 {% if page.author %}
-{% assign metaAuthor = {{ page.autor }} %}
+{% assign metaAuthor = {{ page.author }} %}
 {% else %}
 {% assign metaAuthor = "Tom" %}
 {% endif %}
@@ -33,7 +34,7 @@
 <meta property="og:title" content="{{ page.title }} &mdash; {{ site.title }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:description" content="{{ page.description }}">
-<meta property="og:url" content="{{ site.url }}/{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:type" content="website">
 <meta property="og:author" content="{{ metaAuthor }}">
 <meta property="og:image" content="{{ metaImageURL }}">
@@ -49,7 +50,7 @@
 
 <title>{% if page.notitle != true %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
 
-<link rel="shortcut icon" href="/assets/img/blondtommo.png" type="image/x-icon">
+<link rel="shortcut icon" href="/assets/img/beachtommo.jpg" type="image/jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
