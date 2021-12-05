@@ -4,11 +4,6 @@ title: /uses
 description: 'Hardware and Software I make use of on a regular basis '
 image: /assets/img/posts/2020-thinkpad/thinkpad_led.jpg
 permalink: "/uses/"
-redirect_from:
-- "/tech/"
-- "/faq/tech/"
-- "/devices/"
-- "/faq/devices/"
 menu:
   header:
     title: Uses

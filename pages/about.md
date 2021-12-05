@@ -5,11 +5,6 @@ permalink: /about/
 description: Who am I?
 image: /assets/img/blondtommodrawing.jpg
 imagealt: "A toddler-age Thomas laying on a carpet, smiling and clutching a pen"
-redirect_from:
-  - /faq/
-  - /contact/
-  - /who/
-
 id: about
 
 menus:

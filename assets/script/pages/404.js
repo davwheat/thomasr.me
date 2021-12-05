@@ -1,10 +1,6 @@
 const newURL = `https://gh-pages.trobinson.me${location.pathname}`;
 
 if(!location.pathname !== '/404.html') {
-    document.getElementById('js-project-url').innerHTML = `
-        or <a href="${newURL}">this URL</a>
-    `;
-
     const reqToCheck = new XMLHttpRequest();  
     reqToCheck.open('GET', newURL, true);
     reqToCheck.onreadystatechange = function(){
@@ -12,7 +8,11 @@ if(!location.pathname !== '/404.html') {
             if (reqToCheck.status === 404) {  
                 // it doesn't exist
             } else {
+                document.getElementById('page-title').innerHTML = `This page has moved!`;
+                document.getElementById('page-description').innerHTML = `You should be redirected shortly.`;
+                document.getElementById('js-project-url').innerHTML = ` or <a href="${newURL}">here</a>`;
                 window.location = newURL;
+                // window.setTimeout(function(){window.location = newURL;},250);
             }
         }
     };
