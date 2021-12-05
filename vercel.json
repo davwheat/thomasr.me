@@ -1,54 +1,45 @@
 {
     "redirects": [{
-        "source": "/faq/",
-        "destination": "https://trobinson.me/about/"
+        "source": "/faq",
+        "destination": "/about"
     }, {
-        "source": "/contact/",
-        "destination": "https://trobinson.me/about/"
+        "source": "/contact",
+        "destination": "/about"
     }, {
-        "source": "/who/",
-        "destination": "https://trobinson.me/about/"
+        "source": "/who",
+        "destination": "/about"
     }, {
-        "source": "/flickr/map/stations/",
+        "source": "/flickr/map/stations",
         "destination": "https://www.google.com/maps/d/edit?mid=109JV5Hsk6s-7Ll2twfa6uasCHX2WMJM1&usp=sharing"
     }, {
-        "source": "/hello-from/go/",
+        "source": "/humans*",
+        "destination": "https://github.com/itsmeimtom/trobinson.me/graphs/contributors"
+    }, {
+        "source": "/hello-from/go",
         "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
     }, {
-        "source": "/humans/",
-        "destination": "https://trobinson.me/humans.txt/"
-    }, {
-        "source": "/humans.txt/",
-        "destination": "https://github.com/itsmeimtom/itsmeimtom.github.io/graphs/contributors"
-    }, {
-        "source": "/hello-from/ivd/",
+        "source": "/hello-from/ivd",
         "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
     }, {
-        "source": "/referrals/",
-        "destination": "https://trobinson.me/uses/referrals"
+        "source": "/hello-from/sx",
+        "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
     }, {
-        "source": "/ref-codes/",
-        "destination": "https://trobinson.me/uses/referrals"
-    }, {
-        "source": "/uses/referrals",
+        "source": "/ref-codes",
         "destination": "https://go.tomr.me/refcodes"
     }, {
-        "source": "/hello-from/sx/",
-        "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
+        "source": "/twitterbot",
+        "destination": "/projects/twitterbot"
     }, {
-        "source": "/twitterbot/",
-        "destination": "https://trobinson.me/projects/twitterbot/"
+        "source": "/tech",
+        "destination": "/uses"
     }, {
-        "source": "/tech/",
-        "destination": "https://trobinson.me/uses/"
+        "source": "/faq/tech",
+        "destination": "/uses"
     }, {
-        "source": "/faq/tech/",
-        "destination": "https://trobinson.me/uses/"
+        "source": "/devices",
+        "destination": "/uses"
     }, {
-        "source": "/devices/",
-        "destination": "https://trobinson.me/uses/"
-    }, {
-        "source": "/faq/devices/",
-        "destination": "https://trobinson.me/uses/"
+        "source": "/faq/devices",
+        "destination": "/uses"
     }]
 }
