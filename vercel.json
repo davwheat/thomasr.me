@@ -12,7 +12,7 @@
         "source": "/flickr/map/stations",
         "destination": "https://www.google.com/maps/d/edit?mid=109JV5Hsk6s-7Ll2twfa6uasCHX2WMJM1&usp=sharing"
     }, {
-        "source": "/humans*",
+        "source": "/humans:slug*",
         "destination": "https://github.com/itsmeimtom/trobinson.me/graphs/contributors"
     }, {
         "source": "/hello-from/go",
