@@ -25,5 +25,10 @@
         "destination": "https://cv.trobinson.me"
     }],
 
-    "rewrites": []
+    "rewrites": [
+        {
+            "source": "/lanyard/",
+            "destination:": "https://api.lanyard.rest/v1/users/101588913746890752"
+        }
+    ]
 }

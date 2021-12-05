@@ -29,6 +29,35 @@
     }
 }
 
+body#now {
+
+    div#js-now {
+        ul#now-list {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+    
+            li {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+
+                h2,h3 {
+                    margin: 0;
+                }
+
+                img {
+                    margin: 0 8px 8px 0;
+                    // height: 5vh;
+                    height: 10vh;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
+
 body#projects {
     ul {
         margin: 0;
@@ -97,7 +126,6 @@ body#projects {
         }
     }
 }
-
 
 body#flickr_map {
     div#yeahyeahyeahs {

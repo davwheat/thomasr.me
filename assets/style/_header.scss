@@ -32,6 +32,11 @@ header {
             position: relative;
             top: 2px;
         }
+
+        span#js-lanyard {
+            font-size: 0.5em;
+            color: dark-tint($accent, 10%);
+        }
     }
 
     nav {
