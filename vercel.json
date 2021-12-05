@@ -1,45 +1,24 @@
 {
     "redirects": [{
-        "source": "/faq",
+        "source": "/(faq|contact|who)(\/*)",
         "destination": "/about"
     }, {
-        "source": "/contact",
-        "destination": "/about"
-    }, {
-        "source": "/who",
-        "destination": "/about"
-    }, {
-        "source": "/flickr/map/stations",
+        "source": "/flickr/map/stations(\/*)",
         "destination": "https://www.google.com/maps/d/edit?mid=109JV5Hsk6s-7Ll2twfa6uasCHX2WMJM1&usp=sharing"
     }, {
         "source": "/humans:slug*",
         "destination": "https://github.com/itsmeimtom/trobinson.me/graphs/contributors"
-    }, {
-        "source": "/hello-from/go",
+    },{
+        "source": "/hello-from/(sx|go|ivd)(\/*)",
         "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
     }, {
-        "source": "/hello-from/ivd",
-        "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
-    }, {
-        "source": "/hello-from/sx",
-        "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
-    }, {
-        "source": "/ref-codes",
+        "source": "/ref-codes(\/*)",
         "destination": "https://go.tomr.me/refcodes"
     }, {
-        "source": "/twitterbot",
+        "source": "/twitterbot(\/*)",
         "destination": "/projects/twitterbot"
     }, {
-        "source": "/tech",
-        "destination": "/uses"
-    }, {
-        "source": "/faq/tech",
-        "destination": "/uses"
-    }, {
-        "source": "/devices",
-        "destination": "/uses"
-    }, {
-        "source": "/faq/devices",
+        "source": "/(faq\/tech|faq\/devices|tech|devices)(\/*)",
         "destination": "/uses"
     }]
 }
