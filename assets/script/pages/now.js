@@ -1,10 +1,4 @@
----
----
-{% if jekyll.environment == 'production' %}
-    const lanyardURL = '/lanyard/';
-{% else %}
-    const lanyardURL = 'https://api.lanyard.rest/v1/users/101588913746890752';
-{% endif %}
+const lanyardURL = 'https://api.lanyard.rest/v1/users/101588913746890752';
 
 let nowPage = window.location.pathname.toLowerCase().includes('now') ? true : false;
 
