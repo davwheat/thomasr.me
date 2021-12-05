@@ -20,10 +20,10 @@
     }, {
         "source": "/(faq\/tech|faq\/devices|tech|devices)(\/*)",
         "destination": "/uses"
-    }],
-
-    "rewrites": [{
+    }, {
         "source": "/(cv|resume)(\/*)",
         "destination": "https://cv.trobinson.me"
-    }]
+    }],
+
+    "rewrites": []
 }
