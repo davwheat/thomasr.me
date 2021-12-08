@@ -65,7 +65,8 @@ header {
                 a {
                     display: inline-block;
                     text-decoration: none;
-    
+                    color: $accentLightIsh;
+
                     &[href], &[href]:hover {
                         text-decoration: none;
                     }

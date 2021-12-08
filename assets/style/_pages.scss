@@ -41,7 +41,7 @@ body#projects {
             border-left: 8px solid $accentLight;
 
             &:nth-child(even) {
-                border-left-color: $accentLight;
+                border-left-color: $accentLightIsh;
             }
 
             a.project-title {
