@@ -1,37 +1,63 @@
 {
     "redirects": [{
-        "source": "/(faq|contact|who)(\/*)",
-        "destination": "/about"
-    }, {
-        "source": "/flickr/map/stations(\/*)",
-        "destination": "https://www.google.com/maps/d/edit?mid=109JV5Hsk6s-7Ll2twfa6uasCHX2WMJM1&usp=sharing"
-    }, {
-        "source": "/humans:slug*",
-        "destination": "https://github.com/itsmeimtom/trobinson.me/graphs/contributors"
-    }, {
-        "source": "/hello-from/(sx|go|ivd)(\/*)",
-        "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
-    }, {
-        "source": "/ref-codes(\/*)",
-        "destination": "https://go.tomr.me/refcodes"
-    }, {
-        "source": "/twitterbot(\/*)",
-        "destination": "/projects/twitterbot"
-    }, {
-        "source": "/(faq\/tech|faq\/devices|tech|devices)(\/*)",
-        "destination": "/uses"
-    }, {
-        "source": "/(cv|resume)(\/*)",
-        "destination": "https://cv.trobinson.me"
-    }],
-
+            "source": "/(faq|contact|who)(\/*)",
+            "destination": "/about"
+        },
+        {
+            "source": "/flickr/map/stations(\/*)",
+            "destination": "https://www.google.com/maps/d/edit?mid=109JV5Hsk6s-7Ll2twfa6uasCHX2WMJM1&usp=sharing"
+        },
+        {
+            "source": "/humans:slug*",
+            "destination": "https://github.com/itsmeimtom/trobinson.me/graphs/contributors"
+        },
+        {
+            "source": "/hello-from/(sx|go|ivd)(\/*)",
+            "destination": "https://imtom.notion.site/b9a60406861d4f3fba39d678d9c8f699"
+        },
+        {
+            "source": "/ref-codes(\/*)",
+            "destination": "https://go.tomr.me/refcodes"
+        },
+        {
+            "source": "/twitterbot(\/*)",
+            "destination": "/projects/twitterbot"
+        },
+        {
+            "source": "/(faq\/tech|faq\/devices|tech|devices)(\/*)",
+            "destination": "/uses"
+        },
+        {
+            "source": "/(cv|resume)(\/*)",
+            "destination": "https://cv.trobinson.me"
+        }
+    ],
+    
     "rewrites": [],
 
     "headers": [{
-        "source": "/:path",
-        "headers": [{
-            "key": "Strict-Transport-Security",
-            "value": "max-age=63072000; includeSubDomains; preload"
-        }]
-    }]
+            "source": "/:path*",
+            "headers": [{
+                    "key": "Strict-Transport-Security",
+                    "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                    "key": "X-Powered-By",
+                    "value": "hugs"
+                }
+            ]
+        },
+        {
+            "source": "/",
+            "headers": [{
+                    "key": "Strict-Transport-Security",
+                    "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                    "key": "X-Powered-By",
+                    "value": "hugs"
+                }
+            ]
+        }
+    ]
 }
