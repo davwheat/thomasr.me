@@ -1,8 +1,10 @@
 <p>
-    <a href="https://github.com/{{site.github}}/trobinson.me/blob/master/{{ page.path }}"><i class="far fa-fw fa-file-code" aria-hidden="true"></i> {{ page.path }}</a>
+    <a href="https://github.com/{{site.github}}/trobinson.me/blob/master/{{ page.path }}" title="{{ page.path }}"><i class="far fa-fw fa-file-code" aria-hidden="true"></i> page source</a>
     &nbsp;&mdash;&nbsp;
-    <a href="javascript:disableColours()" id="bw-button"><i class="fas fa-fw fa-tint-slash" aria-hidden="true"></i> go neutral</a>
+    <a href="javascript:disableColours()" id="bw-button"><i class="fas fa-fw fa-tint-slash" aria-hidden="true"></i> Disable Colours</a>
 </p>
 <p>
-    <i class="far fa-fw fa-copyright" aria-hidden="true" title="Copyright"></i><span class="fa-sr-only">&copy; copyright</span> {{ site.time | date: '%Y' }} &mdash; Some Rights Reserved (<a href="https://github.com/{{site.github}}/trobinson.me/blob/master/LICENSE">CC BY-SA</a>)
+    
+    <!-- site year: {{ site.time | date: '%Y' }}, page year: {{ page.last_modified_at | date: '%Y' }} -->
+    {{ page.last_modified_at | date: '%Y' }}, Some Rights Reserved (<a href="https://github.com/{{site.github}}/trobinson.me/blob/master/LICENSE">CC BY-SA</a>)
 </p>
