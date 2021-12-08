@@ -7,7 +7,7 @@ footer {
 
     background-color: $accentDarkIsh;
     @include in-light-mode {
-        background-color: $accentDarkIsh;
+        background-color: $accentLightIsh;
     }
 
     text-align: center;
