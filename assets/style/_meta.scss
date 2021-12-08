@@ -4,20 +4,20 @@ aside#page-meta, aside#post-meta {
     padding-top: 4px;
 
     h1 {
-        color: light-tint($accent, 70%);
-        @include in-light-mode {
-            color: dark-tint($accent, 70%);
-        }
+        color: $accent;
+        // @include in-light-mode {
+        //     color: dark-tint($accent, 70%);
+        // }
 
         font-size: 2.5em;
         margin: 0;
     }
 
     h2 {
-        color: light-tint($accent, 75%);
-        @include in-light-mode {
-            color: dark-tint($accent, 75%);
-        }
+        color: $accent;
+        // @include in-light-mode {
+        //     color: dark-tint($accent, 75%);
+        // }
         
         font-size: 1.75em;
         margin-top: 0;
