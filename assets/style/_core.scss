@@ -7,12 +7,12 @@ body {
     padding: 16px;
     overflow-x: hidden;
 
-    background-color: dark-tint($accent, 95%);
-    color: light-tint($accent, 95%);
+    background-color: $accentDark;
+    color: $accentLight;
 
     @include in-light-mode {
-        background-color: light-tint($accent, 98%);
-        color: dark-tint($accent, 95%);
+        background-color: $accentLight;
+        color: $accentDark;
     }
 
     font-size: 1.1em;
@@ -63,10 +63,10 @@ p {
 }
 
 a {
-    color: light-tint($accent, 70%);
+    color: $accentLightIsh;
 
     @include in-light-mode {
-        color: dark-tint($accent, 70%);
+        color: $accentDarkIsh;
     }
 
     &[href] {
@@ -77,12 +77,12 @@ a {
         }
     
         &:focus {
-            background-color: light-tint($accent, 80%);
-            color: dark-tint($accent, 90%);
+            background-color: $accentLight;
+            color: $accentDark;
             
             @include in-light-mode {
-                background-color: dark-tint($accent, 80%);
-                color: light-tint($accent, 90%);
+                background-color: $accentDark;
+                color: $accentLight;
             }
         }
     }

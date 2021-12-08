@@ -4,9 +4,9 @@ aside#page-meta, aside#post-meta {
     padding-top: 4px;
 
     h1 {
-        color: light-tint($accent, 70%);
+        color: $accentLightIsh;
         @include in-light-mode {
-            color: dark-tint($accent, 70%);
+            color: $accentDarkIsh
         }
 
         font-size: 2.5em;
@@ -14,9 +14,9 @@ aside#page-meta, aside#post-meta {
     }
 
     h2 {
-        color: light-tint($accent, 75%);
+        color: $accentLightIsh;
         @include in-light-mode {
-            color: dark-tint($accent, 75%);
+            color: $accentDarkIsh
         }
         
         font-size: 1.75em;
@@ -30,7 +30,10 @@ aside#page-meta, aside#post-meta {
         -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
         margin-top: 1em;
         margin-bottom: -4em;
-        
+
+        position: relative;
+        z-index: -1;
+
         @include on-big-screen {
             transform: scale(1.1);
         }

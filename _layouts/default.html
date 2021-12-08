@@ -38,11 +38,5 @@ layout: compress
         <script src="{{ script }}"></script>
     {% endfor %}
     {% endif %}
-
-    {% if jekyll.environment == "production" %}
-        <!-- Cloudflare Web Analytics -->
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f4d5921065664aaba18f820641b1784b"}'></script>
-        <!-- End Cloudflare Web Analytics -->
-    {% endif %}
 </body>
 </html>

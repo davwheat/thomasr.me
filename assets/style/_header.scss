@@ -9,11 +9,11 @@ header {
     margin: 0 auto;
     margin-bottom: 1em;
     padding: 1em;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 8px 8px;
 
-    background-color: dark-tint($accent, 90%);
+    background-color: $accentDarkIsh;
     @include in-light-mode {
-        background-color: light-tint($accent, 90%);
+        background-color: $accentDarkIsh;
     }
 
     h1 {
@@ -65,17 +65,18 @@ header {
                 a {
                     display: inline-block;
                     text-decoration: none;
-    
+                    color: $accentLightIsh;
+
                     &[href], &[href]:hover {
                         text-decoration: none;
                     }
                     
                     @include on-big-screen {
                         padding-bottom: 2px;
-                        border-bottom: 2px solid dark-tint($accent, 75%);
+                        border-bottom: 2px solid $accent;
 
                         @include in-light-mode {
-                            border-bottom: 2px solid light-tint($accent, 75%);
+                            border-bottom: 2px solid $accent;
                         }
                     }
 
