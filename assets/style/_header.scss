@@ -13,7 +13,7 @@ header {
 
     background-color: $accentDarkIsh;
     @include in-light-mode {
-        background-color: $accentDarkIsh;
+        background-color: $accentLightIsh;
     }
 
     h1 {
@@ -66,6 +66,9 @@ header {
                     display: inline-block;
                     text-decoration: none;
                     color: $accentLightIsh;
+                    @include in-light-mode {
+                        color: $accentDarkIsh;
+                    }
 
                     &[href], &[href]:hover {
                         text-decoration: none;
