@@ -29,11 +29,14 @@ let extraBig = `
 //
 // Carto tiles
 //
-L.tileLayer('https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png', {
+
+const colourMode = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+
+L.tileLayer(`https://basemaps.cartocdn.com/rastertiles/${colourMode}_all/{z}/{x}/{y}{r}.png`, {
     attribution: `
     ${extraBig}
-    Map Tiles by <a href="https://carto.com/">Carto</a> | Data from <a href="https://www.openstreetmap.org/">OpenStreetMap</a>
-    ${extraAtts} | <a href="https://www.openstreetmap.org/fixthemap">Map Content Problems?</a>
+    Map tiles from <a href="https://carto.com/">Carto</a> w/ data from <a href="https://www.openstreetmap.org/">OpenStreetMap</a>
+    ${extraAtts}
     `
 }).addTo(map);
 
