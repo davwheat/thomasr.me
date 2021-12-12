@@ -3,5 +3,11 @@
 {% if jekyll.environment != "production" %}User-agent: *
 Disallow: /
 # this isn't a production site, please go away xoxo
-{% else %}# beep boop!
+{% else %}
+# Beep Boop!
+
+{% for page in site.pages %}{% if page.hidden %}
+# Added automatically
+Disallow: {{ page.url }}{% endif %}{% endfor %}
 {% endif %}
+
