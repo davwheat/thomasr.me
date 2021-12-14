@@ -41,58 +41,39 @@ body#projects {
             border-left: 8px solid $accentLight;
 
             &:nth-child(even) {
-                border-left-color: $accentLightIsh;
+                border-left-color: $accent;
             }
 
-            a.project-title {
-                display: block;
-                font-family: $fn-headings;
-                font-size: 2em;
-                // color: inherit;
-                // transition: color 0.2s;
-
-                &[href] i {
+            h2.project-title {
+                margin: 0;
+                
+                i.fa-external-link-alt {
                     font-size: 0.4em;
                     vertical-align: super;
                 }
 
-                &[href]:hover {
-                    text-decoration: none;
+                span.project-langs, a.project-code-link {
                     color: $accent;
+                    font-size: 0.5em;
+                    text-decoration: none;
+                }
+
+                a.project-code-link:hover {
+                    text-decoration: underline;
                 }
             }
 
-            span.project-langs {
-                // opacity: 1;
-
-                span.lang {
-                    display: inline-block;
-                    margin: 0 2px;
-
-                    // &.lang-js {
-                    //     color: #7f720f;
-                    // }
-
-                    // &.lang-php {
-                    //     color: #5b627f;
-                    // }
-
-                    // &.lang-jekyll {
-                    //     color: #7f3333;
-                    // }
-
-                    // &.lang-py {
-                    //     color: #305b7f;
-                    // }
-                }
-
-                a[href] {
-                    opacity: 0.8;
-                }
+            h3.project-subtitle {
+                margin: 0;
+                font-size: 1.1em;
             }
 
-            p {
-                margin-top: 0.5em;
+            div.project-content {
+                margin: 0;
+                
+                p {
+                    margin: 0;
+                }
             }
         }
     }

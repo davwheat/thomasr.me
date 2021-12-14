@@ -13,24 +13,18 @@ menus:
 ---
 
 <ul id="projects">
-    {% for p in site.projects %}
+    {% assign sortedProjects = site.projects | sort: "ordering" %}
+    {% for p in sortedProjects %}
         <li class="project">
-            <!-- <img class="project-image" src="/img/projects/{{p.image}}" alt="Screenshot of {{p.title}}"> -->
-            <a {% if p.title_link %}href="{{ p.title_link | replace: "#GITHUB#", site.github }}" target="_blank" rel="noopener noreferrer"{% endif %} class="project-title">
-            {{ p.title }} {% if p.title_link %}<i class="fas fa-external-link-alt" aria-hidden="true"></i>{% endif %}</a>
-            <span class="project-langs">
-                {% for link in p.links %}
-                    {{ link | replace: "#GITHUB#", site.github }}
-                    {% if forloop.last == false %}&bull;{% endif %}
-                    {% if forloop.last %}&mdash;{% endif %}
-                {% endfor %}
-                
-                {% for lang in p.languages %}
-                    {{ lang }}
-                    {% if forloop.last == false %}&bull;{% endif %}
-                {% endfor %}
-            </span>
-            <p>{{ p.content | strip_html }}</p>
+            <h2 class="project-title">
+                {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener noreferrer">{% endif %}
+                    {{ p.title }}
+                    {% if p.link %}<i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}
+                    {% if p.langs %}<span class="project-langs">{{ p.langs }}</span>{% endif %}
+                    {% if p.code %}<a class="project-code-link" href="{{ p.code | replace: "#GITHUB#", site.github }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-binoculars"></i> view code<i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}
+                </h2>
+            <h3 class="project-subtitle">{{ p.subtitle }}</h3>
+            {% if p.content %}<div class="project-content">{{ p.content }}</div>{% endif %}
         </li>
     {% endfor %}
 </ul>
