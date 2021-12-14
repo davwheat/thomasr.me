@@ -1,4 +1,9 @@
 {
+    "public": true,
+    
+    "trailingSlash": true,
+    "cleanUrls": true,
+
     "redirects": [{
             "source": "/(faq|contact|who)(\/*)",
             "destination": "/about"
