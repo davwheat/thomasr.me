@@ -2,7 +2,7 @@
 title: Photography
 subtitle: "&amp; Flickr Toys"
 link: /flickr/
-langs: "JavaScript"
+lang: "JavaScript"
 ordering: 0
 ---
 

@@ -20,8 +20,8 @@ menus:
                 {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener noreferrer">{% endif %}
                     {{ p.title }}
                     {% if p.link %}<i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}
-                    {% if p.langs %}<span class="project-langs">{{ p.langs }}</span>{% endif %}
-                    {% if p.code %}<a class="project-code-link" href="{{ p.code | replace: "#GITHUB#", site.github }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-binoculars"></i> view code<i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}
+                    {% if p.code %}<a class="project-code-link" href="{{ p.code | replace: "#GITHUB#", site.github }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-code"></i> view code<i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}
+                    {% if p.lang %}<span class="project-langs">({{ p.lang }})</span>{% endif %}
                 </h2>
             <h3 class="project-subtitle">{{ p.subtitle }}</h3>
             {% if p.content %}<div class="project-content">{{ p.content }}</div>{% endif %}
