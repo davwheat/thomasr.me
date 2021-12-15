@@ -1,0 +1,37 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: boolean
+  name: wide
+  label: wide
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: imgcsp
+  label: imgcsp
+- type: text
+  name: scriptcsp
+  label: scriptcsp
+- type: text
+  name: stylecsp
+  label: stylecsp
+- type: list
+  name: scripts
+  label: scripts
+- type: list
+  name: head
+  label: head
+- type: text
+  name: id
+  label: id
