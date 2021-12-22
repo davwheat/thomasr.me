@@ -42,10 +42,6 @@ h3,
 h4 {
     font-family: $fn-headings;
     margin-bottom: 0;
-
-    &:not(:first-child) {
-        margin-top: 1em;
-    }
 }
 
 h1 {
@@ -71,15 +67,15 @@ a {
 
     &[href] {
         text-decoration: underline;
-        
+
         &:hover {
             text-decoration: none;
         }
-    
+
         &:focus {
             background-color: $accentLight;
             color: $accentDark;
-            
+
             @include in-light-mode {
                 background-color: $accentDark;
                 color: $accentLight;
@@ -104,6 +100,15 @@ main {
     max-width: #{$width}em;
     margin: 0 auto;
     text-transform: none;
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        &:not(:first-child) {
+            margin-top: 1em;
+        }
+    }
 
     img {
         max-width: 100%;
@@ -136,4 +141,3 @@ main {
     }
 
 }
-
