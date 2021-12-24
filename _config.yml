@@ -7,7 +7,8 @@ locale: en_GB
 
 collections:
   projects:
-    output: false
+    layout: default
+    output: true
 
 twitter: itsmeimtom
 github: itsmeimtom
@@ -16,6 +17,18 @@ flickr: "193606210@N05"
 youtube: dnomaid
 
 permalink: /:year/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "default"
 
 sass:
   sass_dir: assets/style

@@ -1,7 +1,17 @@
 ---
+layout: default
 title: BeforeYouGoGo
-subtitle: "A work-in-progress no-frills URL shortener that uses text files rather than a database."
+description: "WIP URL Shortener"
+longdescription: "A work-in-progress no-frills URL shortener that uses text files rather than a database."
+image: /assets/img/projects/gogo.jpg
 lang: "PHP, JavaScript"
-code: https://github.com/#GITHUB#/beforeyougogo
 ordering: 2
 ---
+
+A work-in-progress no-frills URL shortener that uses text files rather than a database.
+
+Written in <i class="fab fa-php" aria-hidden="true"></i> PHP (backend) and <i class="fab fa-js-square" aria-hidden="true"></i> Javascript (frontend).
+
+Powers my own personal shortener at [go.TomR.me](https://go.tomr.me).
+
+[View the Code &raquo;](https://github.com/#GITHUB#/beforeyougogo)
