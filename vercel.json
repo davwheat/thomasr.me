@@ -9,7 +9,11 @@
             "destination": "/about"
         },
         {
-            "source": "/(flickr|photography|photos|\/projects\/photog)(\/*)",
+            "source": "/(flickr|photography|photos)(\/*)",
+            "destination": "/photog"
+        },
+        {
+            "source": "/projects/(flickr|photography|photos)(\/*)",
             "destination": "/photog"
         },
         {
