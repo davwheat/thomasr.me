@@ -64,7 +64,6 @@ header {
             @include on-big-screen {
                 float: left;
                 margin-right: 0.5em;
-                border-bottom-left-radius: 8px;
             }
     
             @include on-small-screen {
