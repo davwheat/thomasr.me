@@ -7,7 +7,7 @@ permalink: "/uses/"
 menus:
   header:
     title: Uses
-    weight: 4
+    weight: 5
     identifier: uses
 ---
 
