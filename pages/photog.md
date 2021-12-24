@@ -6,8 +6,8 @@ image: /assets/img/pages/photog.jpg
 permalink: /photog/
 menus:
   header:
-    title: Photos
-    weight: 3
+    title: Photog
+    weight: 20
     identifier: photog
 ---
 

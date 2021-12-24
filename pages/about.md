@@ -10,7 +10,7 @@ id: about
 menus:
   header:
     title: About
-    weight: 1
+    weight: 30
     identifier: about
 ---
 

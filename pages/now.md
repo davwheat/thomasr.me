@@ -8,7 +8,7 @@ permalink: "/now/"
 menus:
   header:
     title: Now
-    weight: 4
+    weight: 50
     identifier: now
 ---
 
