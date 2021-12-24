@@ -20,19 +20,4 @@
       </li>
     {% endfor %}
   </ul>
-
-  <ul>
-    <li>
-      <a href="https://github.com/{{ site.github }}" class="social"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub<i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(external link)</span></a>
-    </li>
-    <li>
-      <a href="/flickr/" class="social {% if page.url contains '/flickr' %}current-page{% endif %}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr<i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(external link)</span></a>
-    </li>
-
-    {% for item in site.menus.social %}
-    <li>
-      <a href="{{ item.url }}" class="social"><i class="fab fa-fw fa-{{ item.idenfier }}" aria-hidden="true"></i> {{ item.title }}</a>
-    </li>
-  {% endfor %}
-  </ul>
 </nav>

@@ -1,6 +1,6 @@
 footer {
-    max-width: calc(#{$width}em - 2em);
-    margin: 2em auto;
+    max-width: calc(#{$width/1.25}em - 2em);
+    margin: 5em auto 1em auto;
     padding: 1em;
     border-radius: 8px 8px 0 0;
     border-bottom: 2px solid $accent;
