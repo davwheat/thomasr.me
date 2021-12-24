@@ -3,12 +3,12 @@ layout: default
 title: Now
 description: What I'm doing now 
 image: /assets/img/pages/now_solihull.jpg
-permalink: "/now"
+permalink: "/now/"
 
 menus:
   header:
     title: Now
-    weight: 3
+    weight: 4
     identifier: now
 ---
 
