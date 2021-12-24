@@ -3,6 +3,7 @@ layout: default
 title: "Markdown Test Page"
 description: "For testing styling!"
 permalink: /md-test/
+hidden: true
 ---
 
 # Markdown: Syntax
