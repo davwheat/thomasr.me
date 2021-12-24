@@ -5,9 +5,11 @@ footer {
     border-radius: 8px 8px 0 0;
     border-bottom: 2px solid $accent;
 
-    background-color: $accentDarkIsh;
-    @include in-light-mode {
-        background-color: $accentLightIsh;
+    @include on-small-screen {
+        background-color: $accentDarkIsh;
+        @include in-light-mode {
+            background-color: $accentLightIsh;
+        }
     }
 
     text-align: center;

@@ -1,12 +1,12 @@
-<img src="/assets/img/blondtommo128.jpg" id="header-image" aria-hidden="true">
-
-<h1 id="site-title">
-{% if page.permalink == '/' %}
-  Hello, I'm Tom! <img src="/assets/img/twemoji-peace.png" alt="Emoji peace sign">
-{% else %}
-  {{ site.title }}
-{% endif %}
-</h1>
+<a href="/" id="home-link">
+  <h1 id="site-title">
+  {% if page.permalink == '/' %}
+    Hello, I'm Tom! <img src="/assets/img/twemoji-peace.png" alt="Emoji peace sign">
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+  </h1>
+</a>
 
 <nav>
   <ul>
@@ -23,10 +23,10 @@
 
   <ul>
     <li>
-      <a href="https://github.com/{{ site.github }}" class="social"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
+      <a href="https://github.com/{{ site.github }}" class="social"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub<i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(external link)</span></a>
     </li>
     <li>
-      <a href="/flickr/" class="social {% if page.url contains '/flickr' %}current-page{% endif %}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a>
+      <a href="/flickr/" class="social {% if page.url contains '/flickr' %}current-page{% endif %}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr<i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(external link)</span></a>
     </li>
 
     {% for item in site.menus.social %}

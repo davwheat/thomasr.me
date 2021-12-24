@@ -11,33 +11,30 @@ header {
     padding: 1em;
     border-radius: 0 0 8px 8px;
 
-    background-color: $accentDarkIsh;
-    @include in-light-mode {
-        background-color: $accentLightIsh;
+    @include on-small-screen {
+        background-color: $accentDarkIsh;
+        @include in-light-mode {
+            background-color: $accentLightIsh;
+        }
     }
 
-    img#header-image {
-        height: 3.5em;
+    a#home-link {
+        color: inherit;
+        text-decoration: none;
 
-        filter: brightness(0.8);
-
-        @include in-light-mode {
-            // filter: brightness(1.2);
-        }
-
-        @include on-big-screen {
-            float: left;
-            margin-right: 0.5em;
-            border-bottom-left-radius: 8px;
-        }
-
-        @include on-small-screen {
-            height: 5em;
-            margin-bottom: 0.5em;
+        &:hover {
+            h1 {
+                background-color: $accentDark;
+            
+                &:before {
+                    background-image: url('/assets/img/blondtommo128.jpg');
+                }
+            }
         }
     }
 
     h1 {
+        display: inline;
         margin: 0;
         font-family: $fn-headings;
         font-size: 1.5em;
@@ -52,6 +49,33 @@ header {
             height: 1em;
             position: relative;
             top: 2px;
+        }
+
+        &::before {
+            display: block;
+            height: 2em;
+            width: 2em;
+            content: '';
+
+            margin: 0;
+            padding: 0;
+            @include on-big-screen {
+                float: left;
+                margin-right: 0.5em;
+                border-bottom-left-radius: 8px;
+            }
+    
+            @include on-small-screen {
+                height: 2em;
+                margin-bottom: 0.5em;
+            }
+            
+            background-image: url('/assets/img/tophat128.png');
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: contain;
+
+            filter: brightness(0.8);
         }
     }
 
@@ -97,10 +121,10 @@ header {
                     
                     @include on-big-screen {
                         padding-bottom: 2px;
-                        border-bottom: 2px solid $accent;
+                        border-bottom: 2px solid $accentLightIsh;
 
                         @include in-light-mode {
-                            border-bottom: 2px solid $accent;
+                            border-bottom: 2px solid $accentLightIsh;
                         }
                     }
 
@@ -116,7 +140,9 @@ header {
                     &:hover,
                     &.current-page {
                         color: $accent;
-                        
+                    }
+
+                    &.current-page {
                         @include on-big-screen {
                             border-bottom: 2px solid $accent;
                         }
