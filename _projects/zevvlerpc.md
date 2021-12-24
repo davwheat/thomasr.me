@@ -1,7 +1,15 @@
 ---
+layout: default
 title: Zevvle Discord Status
-subtitle: "Allows you to have your Zevvle (mobile carrier) usage stats as your Discord status"
+description: "Showcase your Zevvle usage in your Discord status"
+longdescription: "Allows you to have your Zevvle (mobile carrier) usage stats as your Discord status"
+image: /assets/img/projects/zevvlerpc.jpg
 lang: JavaScript
-code: https://github.com/#GITHUB#/zevvlerpc
 ordering: 12
 ---
+
+Allows you to have your Zevvle (mobile carrier) usage stats as your Discord status
+
+Written in <i class="fab fa-node-js" aria-hidden="true"></i> NodeJS.
+
+[View Code &raquo;](https://github.com/{{ site.github }}/zevvlerpc)

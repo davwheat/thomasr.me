@@ -9,7 +9,7 @@
             "destination": "/about"
         },
         {
-            "source": "/(flickr|photography|photos)(\/*)",
+            "source": "/(flickr|photography|photos|\/projects\/photog)(\/*)",
             "destination": "/photog"
         },
         {

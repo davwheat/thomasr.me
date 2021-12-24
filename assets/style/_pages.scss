@@ -31,45 +31,46 @@
 
 body#projects {
     ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+        // margin: 0;
+        // padding: 0;
+        // list-style: none;
 
         li.project {
             margin: 16px 0;
-            padding-left: 16px;
-            border-left: 8px solid $accentLight;
 
-            &:nth-child(even) {
-                border-left-color: $accent;
-            }
-
-            h2.project-title {
+            h3.project-title {
+                display: inline-block;
                 margin: 0;
-                
+               
                 i.fa-external-link-alt {
                     font-size: 0.4em;
                     vertical-align: super;
                 }
 
-                span.project-langs, a.project-code-link {
+                span.project-name {
+                    text-decoration: underline;
+                }
+
+                span.project-langs {
+                    visibility: hidden;
                     color: $accent;
                     font-size: 0.5em;
+                    text-decoration: none;
                 }
 
-                a.project-code-link {
+                a {
                     text-decoration: none;
-                    border-bottom: none;
+                }
 
-                    &:hover {
-                        border-bottom: 1px solid $accent;
+                a:hover {
+                    span.project-name {
+                        text-decoration: none;
+                    }
+
+                    span.project-langs {
+                        visibility: visible;
                     }
                 }
-            }
-
-            h3.project-subtitle {
-                margin: 0;
-                font-size: 1.1em;
             }
 
             div.project-content {
