@@ -15,7 +15,7 @@
       {% if item.url contains "http" %}
         <a href="{{ item.url }}">{{ item.title }} <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(external link)</span></a>
       {% else %}
-        <a href="{{ item.url }}" {% if page.url contains item.identifier %}class="current-page" {% endif %}> {{ item.title }}</a>
+        <a href="{{ item.url }}" {% if page.url contains item.identifier %}class="current-page" {% endif %}>{{ item.title }}</a>
       {% endif %}
       </li>
     {% endfor %}

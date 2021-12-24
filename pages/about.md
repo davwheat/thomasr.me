@@ -10,11 +10,20 @@ id: about
 menus:
   header:
     title: About
-    weight: 1
+    weight: 30
     identifier: about
 ---
 
 Hello! My name is Thomas, but it's easier to write Tom. I'm an IT student from the middle of the UK. This is my (superfluous) home on the internet!
+
+# Now
+What am I up to right now? As of {{ page.last_modified_at | date: '%A %b %d, %Y' }}, I am:
+- Studying and making sure I'm being as [organised](/uses) as possible.
+- Exploring Docker and K8S. (See [my homelab](https://wiki.tomr.me/lab)!).
+- Continuing to half-seriously learn Welsh.
+- Investigating cycling trips to take in 2022.
+
+---
 
 ## Contact
 - he/him

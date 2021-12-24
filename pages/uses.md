@@ -1,13 +1,13 @@
 ---
 layout: default
-title: /uses
-description: 'Hardware and Software I make use of on a regular basis '
+title: Uses
+description: 'Hardware and Software I make use of on a regular basis'
 image: /assets/img/posts/2020-thinkpad/thinkpad_led.jpg
 permalink: "/uses/"
 menus:
   header:
     title: Uses
-    weight: 5
+    weight: 40
     identifier: uses
 ---
 
@@ -22,6 +22,7 @@ Inspired by [uses.tech](https://uses.tech/) (and especially [Tai's page](https:/
 - I **procrastinate** with an [iPhone 12 mini](https://www.apple.com/uk/iphone-12/)
 - I **tell the time** with a [Apple Watch](https://www.apple.com/uk/watch) Series 4
 - I **listen** with [HD4.40](https://en-uk.sennheiser.com/wireless-headphones-bluetooth-hd-4-40-bt)s and the obligatory [Airpods](https://www.apple.com/uk/airpods/)
+- I **babysit** a [homelab](https://wiki.tomr.me/lab)
 
 ## Software
 - I **complain about** Windows 10 Pro
