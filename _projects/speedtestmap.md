@@ -12,5 +12,5 @@ Load all your speedtests taken using the iOS Ookla Speedtest.net app onto a hand
 
 Written in <i class="fab fa-js-square" aria-hidden="true"></i> JavaScript.
 
-[Visit Site &raquo;](/speedtestdotnetcsvmap)
-[View Code &raquo;](https://github.com/#GITHUB#/speedtestdotnetcsvmap)
+- [Visit Site &raquo;](/speedtestdotnetcsvmap)
+- [View Code &raquo;](https://github.com/#GITHUB#/speedtestdotnetcsvmap)

@@ -11,5 +11,5 @@ ordering: 3
 
 A Status Page made using the Updown.io API (<i class="fab fa-js-square" aria-hidden="true"></i> Javascript) and using <i class="fas fa-vial" aria-hidden="true"></i> Jekyll as a CMS for incident logging.
 
-[Visit &raquo;](https://status.tomr.me)
+- [Visit &raquo;](https://status.tomr.me)
 

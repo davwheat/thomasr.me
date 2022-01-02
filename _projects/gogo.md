@@ -14,4 +14,4 @@ Written in <i class="fab fa-php" aria-hidden="true"></i> PHP (backend) and <i cl
 
 Powers my own personal shortener at [go.TomR.me](https://go.tomr.me).
 
-[View the Code &raquo;](https://github.com/#GITHUB#/beforeyougogo)
+- [View the Code &raquo;](https://github.com/#GITHUB#/beforeyougogo)
