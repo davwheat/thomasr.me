@@ -12,5 +12,5 @@ Since improved by various other contributers, I created the website for MagicCap
 
 Using <i class="fas fa-vial" aria-hidden="true"></i> Jekyll as a CMS. Written in <i class="fab fa-js-square" aria-hidden="true"></i> JavaScript and styled with <i class="fab fa-sass" aria-hidden="true"></i> SCSS.
 
-[Visit Website &raquo;](https://magiccap.me)
-[View Code &raquo;](https://github.com/MagicCap/MagicCap.me)
+- [Visit Website &raquo;](https://magiccap.me)
+- [View Code &raquo;](https://github.com/MagicCap/MagicCap.me)

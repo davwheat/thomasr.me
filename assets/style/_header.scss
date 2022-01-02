@@ -27,7 +27,11 @@ header {
         &:hover {
             h1 {
                 background-color: $accentDark;
-            
+                
+                @include on-big-screen {
+                    background-color: $accentDarkIsh;
+                }
+
                 &:before {
                     background-image: url('/assets/img/blondtommo128.jpg');
                 }

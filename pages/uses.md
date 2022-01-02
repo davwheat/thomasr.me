@@ -21,7 +21,7 @@ Inspired by [uses.tech](https://uses.tech/) (and especially [Tai's page](https:/
 - I **type** on a [DASkeyboard Prime 13](https://www.daskeyboard.com/p/prime13-mechanical-keyboard/) with MX Browns
 - I **procrastinate** with an [iPhone 12 mini](https://www.apple.com/uk/iphone-12/)
 - I **tell the time** with a [Apple Watch](https://www.apple.com/uk/watch) Series 4
-- I **listen** with [HD4.40](https://en-uk.sennheiser.com/wireless-headphones-bluetooth-hd-4-40-bt)s and the obligatory [Airpods](https://www.apple.com/uk/airpods/)
+- I **listen** with [Sennheiser HD 58X Jubilee](https://drop.com/buy/massdrop-x-sennheiser-hd-58x-jubilee-headphones) headphones and the obligatory [Airpods](https://www.apple.com/uk/airpods/)
 - I **babysit** a [homelab](https://wiki.tomr.me/lab)
 
 ## Software

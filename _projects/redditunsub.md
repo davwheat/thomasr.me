@@ -12,4 +12,4 @@ An easy way to unsubscribe from inactive subreddits (communities) you may still 
 
 Written in <i class="fab fa-js-square" aria-hidden="true"></i> JavaScript.
 
-[Use &raquo;](/redditunsubinactive)
+- [Use &raquo;](/redditunsubinactive)
