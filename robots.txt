@@ -1,13 +1,13 @@
 ---
 ---
 {% if jekyll.environment != "production" %}User-agent: *
-Disallow: /
 # this isn't a production site, please go away xoxo
+Disallow: /
 {% else %}
 # Beep Boop!
+Sitemap: /sitemap.xml
 
 {% for page in site.pages %}{% if page.hidden %}
-# Added automatically
-Disallow: {{ page.url }}{% endif %}{% endfor %}
+Disallow: {{ page.url }}{% endif %}{% endfor %} # added automatically
 {% endif %}
 
