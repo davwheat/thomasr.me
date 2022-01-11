@@ -1,10 +1,13 @@
 ---
 ---
-{% if jekyll.environment != "production" %}User-agent: *
+{% if jekyll.environment != "production" %}
 # this isn't a production site, please go away xoxo
+User-Agent: *
 Disallow: /
 {% else %}
 # Beep Boop!
+
+User-Agent: *
 Sitemap: /sitemap.xml
 
 {% for page in site.pages %}{% if page.hidden %}
