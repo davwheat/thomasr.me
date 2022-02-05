@@ -8,4 +8,5 @@ if (!beforeSlash || beforeSlash.length < 1) window.location = '/';
 
 document.getElementById('page-description').innerText = `${beforeSlash} has been archived or deprecated`;
 document.getElementById('js-archive-link').href = `https://archive.trobinson.me/${beforeSlash}/${afterSlash}`;
-document.getElementById('js-this-site-link').href = `/${afterSlash}`;
+
+if(afterSlash.length >= 1) document.getElementById('js-this-site-link').href = `/${afterSlash}`;

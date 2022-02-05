@@ -13,16 +13,18 @@ layout: compress
         {% include header.html %}
     </header>
     
-    {% if page.nometa != true %}
-        {% if page.layout == 'post' %}
-            {% include post-meta.html %}
-        {% else %}
-            {% include page-meta.html %}
+    <article class="container">
+        {% if page.nometa != true %}
+            {% if page.layout == 'post' %}
+                {% include post-meta.html %}
+            {% else %}
+                {% include page-meta.html %}
+            {% endif %}
         {% endif %}
-    {% endif %}
-    <main>
-        {{ content }}
-    </main>
+        <main>
+            {{ content }}
+        </main>
+    </article>
 
     {% if page.nometa != true %}
     <footer>
