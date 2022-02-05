@@ -23,13 +23,13 @@ body {
 
     @include on-big-screen {
         &.wide {
-            main {
+            article.container {
                 max-width: calc(100% - 16px);
             }
         }
 
         &.wide-ish {
-            main {
+            article.container  {
                 max-width: #{$width * 1.25}em;
             }
         }

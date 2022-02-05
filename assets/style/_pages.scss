@@ -103,7 +103,7 @@ body#flickr_map {
         padding: 2px 4px;
 
         a {
-            color: #00BFFF;
+            color: $accent;
         }
 
         span.map-fullscreen-button {
@@ -112,7 +112,7 @@ body#flickr_map {
             margin-left: 4px;
 
             a {
-                color: #87ceeb;
+                color: $accent;
             }
         }
     }
