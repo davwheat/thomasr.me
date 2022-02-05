@@ -115,9 +115,12 @@ hr {
     max-width: #{$width / 5}em;
 }
 
-main {
+article.container {
     max-width: #{$width}em;
     margin: 0 auto;
+}
+
+main {
     text-transform: none;
 
     h1,
