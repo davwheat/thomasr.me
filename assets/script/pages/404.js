@@ -1,4 +1,4 @@
-const newURL = `https://gh-pages.trobinson.me${location.pathname}`;
+const newURL = `https://github-pages.thomasr.me${location.pathname}`;
 
 if (!location.pathname !== '/404.html') {
     const reqToCheck = new XMLHttpRequest();
