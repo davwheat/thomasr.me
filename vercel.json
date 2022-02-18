@@ -26,7 +26,7 @@
         },
         {
             "source": "/humans:slug*",
-            "destination": "https://github.com/itsmeimtom/trobinson.me/graphs/contributors"
+            "destination": "https://github.com/itsmeimtom/thomasr.me/graphs/contributors"
         },
         {
             "source": "/hello-from/(sx|go|ivd)(\/*)",
@@ -46,7 +46,7 @@
         },
         {
             "source": "/(cv|resume)(\/*)",
-            "destination": "https://cv.trobinson.me"
+            "destination": "https://cv.thomasr.me"
         }
     ],
     

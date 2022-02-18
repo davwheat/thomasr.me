@@ -1,5 +1,5 @@
 header:
-  - url: https://cv.trobinson.me/
+  - url: /cv
     title: CV
     identifier: cv
     weight: 90
