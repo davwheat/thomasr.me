@@ -27,9 +27,6 @@ Hello! My name is Thomas, but it's easier to write Tom. I'm an IT student from t
 
 ## Frequently Asked
 
-### What music d'you like?
-Check out my [last.fm profile](https://last.fm/user/itsmeimtom) for nice charts!
-
 ### Is that you in the baby pictures?
 Of course it is.
 

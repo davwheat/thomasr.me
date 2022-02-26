@@ -1,5 +1,5 @@
 ---
-# this page is unique in that is is both a main page and a project page, therefore it shares the metadata both both
+# this page is unique in that is is both a main page and a project page, therefore it shares the metadata of both
 layout: default
 title: Photography & Flickr Toys
 image: /assets/img/pages/photog.jpg
@@ -22,3 +22,8 @@ menus:
   - <a href="/flickr/photos"><i class="fas fa-fw fa-images"></i> Photos</a>
   - <a href="/flickr/map"><i class="fas fa-fw fa-map-marked"></i> Map</a>
   - <a href="/flickr/map/stations"><i class="fas fa-fw fa-train"></i> Station Map</a>
+
+<style>
+  li a[href] { text-decoration: none; }
+  li a[href]:hover { text-decoration: underline; }
+</style>
