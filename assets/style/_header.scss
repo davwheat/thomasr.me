@@ -32,9 +32,13 @@ header {
                     background-color: $accentDarkIsh;
                 }
 
-                // &:before {
-                //     background-image: url('/assets/img/blondtommo128.jpg');
-                // }
+                &:before {
+                    border-color: $accentLight;
+                    @include in-light-mode {
+                        border-color: $accentDark;
+                    }
+                    // background-image: url('/assets/img/blondtommo128.jpg');
+                }
             }
         }
     }
@@ -81,6 +85,7 @@ header {
             background-position: center bottom;
             background-size: contain;
 
+            border: 1px solid $accent;
             border-radius: 12px;
 
             filter: brightness(0.8);
