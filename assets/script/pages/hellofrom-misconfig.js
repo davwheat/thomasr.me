@@ -1,0 +1,1 @@
+document.getElementById('js-hash').innerText = ` and that it was meant to be on ${hash.replace('#','')}`;
