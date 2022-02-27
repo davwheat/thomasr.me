@@ -14,4 +14,6 @@ Written in <i class="fab fa-php" aria-hidden="true"></i> PHP (backend) and <i cl
 
 Powers my own personal shortener at [go.TomR.me](https://go.tomr.me).
 
-- [View the Code &raquo;](https://github.com/#GITHUB#/beforeyougogo)
+<a href="https://github.com/#GITHUB#/beforeyougogo" class="button">
+    <i class="fas fa-file-code fa-fw"></i> View the Code <span class="moving-icon" aria-hidden="true">&raquo;</span>
+</a>

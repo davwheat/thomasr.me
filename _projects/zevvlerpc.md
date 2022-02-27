@@ -12,4 +12,6 @@ Allows you to have your Zevvle (mobile carrier) usage stats as your Discord stat
 
 Written in <i class="fab fa-node-js" aria-hidden="true"></i> NodeJS.
 
-- [View Code &raquo;](https://github.com/{{ site.github }}/zevvlerpc)
+<a href="(https://github.com/{{ site.github }}/zevvlerpc" class="button">
+    <i class="fas fa-file-code fa-fw"></i> View the Code<span class="moving-icon" aria-hidden="true">&raquo;</span>
+</a>
