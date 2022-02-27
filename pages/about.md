@@ -24,19 +24,19 @@ Hello! My name is Thomas<sup>he/him</sup>, but it's easier to write Tom. I'm an 
   </a>
 
   <a href="https://twitter.com/{{ site.twitter }}" class="button">
-      <i class="fab fa-twitter fa-fw" aria-hidden="true">></i> @{{ site.twitter }}
+      <i class="fab fa-twitter fa-fw" aria-hidden="true"></i> @{{ site.twitter }}
   </a>
 
   <a href="https://github.com/{{ site.github }}" class="button">
-      <i class="fab fa-github fa-fw" aria-hidden="true">></i> @{{ site.github }}
+      <i class="fab fa-github fa-fw" aria-hidden="true"></i> @{{ site.github }}
   </a>
 
   <a href="https://www.last.fm/user/{{ site.lfm }}" class="button">
-      <i class="fab fa-lastfm fa-fw" aria-hidden="true">></i> {{ site.lfm }}
+      <i class="fab fa-lastfm fa-fw" aria-hidden="true"></i> {{ site.lfm }}
   </a>
 
   <!-- <a href="https://www.linkedin.com/in/{{ site.lin }}" class="button">
-      <i class="fab fa-linkedin fa-fw" aria-hidden="true">></i> @{{ site.lin }}
+      <i class="fab fa-linkedin fa-fw" aria-hidden="true"></i> @{{ site.lin }}
   </a> -->
   
 </div>
