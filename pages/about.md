@@ -20,7 +20,7 @@ Hello! My name is Thomas, but it's easier to write Tom. I'm an IT student from t
 
 ## Contact
 
-<div style="margin: 1em 0;">
+<div class="button-group">
   <a class="button no-link">
       <i class="fas fa-person fa-fw"></i> he/him
   </a>
