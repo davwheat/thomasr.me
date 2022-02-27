@@ -130,10 +130,12 @@ header {
                     
                     @include on-big-screen {
                         padding-bottom: 2px;
-                        border-bottom: 2px solid $accentDark;
+                        
+                        // deliberately the same colour as the background 
+                        border-bottom: 2px solid $accentDarkIsh;
 
                         @include in-light-mode {
-                            border-bottom: 2px solid $accentLight;
+                            border-bottom: 2px solid $accentLightIsh;
                         }
                     }
 

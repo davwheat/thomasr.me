@@ -128,18 +128,20 @@ a.button {
         transition: margin-left 0.2s ease-out, padding-right 0.2s ease-out;
     }
 
-    &:hover, &:focus {
-        color: $accentDarkIsh;
-        background-color: $accentLight;
-
-        @include in-light-mode {
-            color: $accentLightIsh;
-            background-color: $accentDark;
-        }
-
-        span.moving-icon {
-            padding-right: 0px;
-            margin-left: 4px;
+    &:not(.no-link) {
+        &:hover, &:focus {
+            color: $accentDarkIsh;
+            background-color: $accentLight;
+    
+            @include in-light-mode {
+                color: $accentLightIsh;
+                background-color: $accentDark;
+            }
+    
+            span.moving-icon {
+                padding-right: 0px;
+                margin-left: 4px;
+            }
         }
     }
 }

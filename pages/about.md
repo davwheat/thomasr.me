@@ -19,9 +19,30 @@ Hello! My name is Thomas, but it's easier to write Tom. I'm an IT student from t
 ---
 
 ## Contact
-- he/him
-- <a id="js-email">hi [at] tomr [dot] me</a>
-- [Keybase.io/{{site.keybase}}](https://keybase.io/{{site.keybase}})
+
+<div style="margin: 1em 0;">
+  <a class="button no-link">
+      <i class="fas fa-person fa-fw"></i> he/him
+  </a>
+
+  <a class="button no-link" id="js-email">
+      <i class="fas fa-envelope fa-fw"></i> <span id="js-email-text">Hi [at] TomR [dot] me</span>
+  </a>
+
+  <a href="https://twitter.com/{{ site.twitter }}" class="button">
+      <i class="fab fa-twitter fa-fw"></i> @{{ site.twitter }}
+  </a>
+
+  <a href="https://github.com/{{ site.github }}" class="button">
+      <i class="fab fa-github fa-fw"></i> @{{ site.github }}
+  </a>
+
+  <!-- <a href="https://www.linkedin.com/in/{{ site.lin }}" class="button">
+      <i class="fab fa-linkedin fa-fw"></i> @{{ site.lin }}
+  </a> -->
+  
+</div>
+
 
 ---
 
@@ -35,6 +56,7 @@ No, although I think he picked a lovely alias to go by. I'm also not a basketbal
 
 <script>
 const email = atob("aGlAdG9tci5tZQ==");
-document.getElementById('js-email').innerHTML = email;
+document.getElementById('js-email-text').innerHTML = email;
 document.getElementById('js-email').href = `mailto:${email}`;
+document.getElementById('js-email').classList.remove('no-link');
 </script>
