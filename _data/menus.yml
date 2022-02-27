@@ -1,5 +1,5 @@
 header:
-  - url: /cv
+  - url: https://cv.thomasr.me
     title: CV
     identifier: cv
     weight: 90

@@ -10,4 +10,6 @@ ordering: 10
 
 Written in <i class="fab fa-js-square" aria-hidden="true"></i> JavaScript.
 
-- [View Site &raquo;](/stagecoachbusmap)
+<a href="/stagecoachbusmap" class="button">
+    <i class="fas fa-globe fa-fw"></i> Visit the Website <span class="moving-icon" aria-hidden="true">&raquo;</span>
+</a>

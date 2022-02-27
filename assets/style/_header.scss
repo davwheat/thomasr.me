@@ -7,18 +7,18 @@ header {
 
     max-width: calc(#{$width/1.25}em - 2em);
     margin: 0 auto;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     padding: 1em;
     border-radius: 0 0 8px 8px;
 
-    @include on-small-screen {
+    // @include on-small-screen {
         max-width: calc(#{$width}em - 2em);
 
         background-color: $accentDarkIsh;
         @include in-light-mode {
             background-color: $accentLightIsh;
         }
-    }
+    // }
 
     a#home-link {
         color: inherit;
@@ -32,9 +32,9 @@ header {
                     background-color: $accentDarkIsh;
                 }
 
-                &:before {
-                    background-image: url('/assets/img/blondtommo128.jpg');
-                }
+                // &:before {
+                //     background-image: url('/assets/img/blondtommo128.jpg');
+                // }
             }
         }
     }
@@ -75,10 +75,13 @@ header {
                 margin-bottom: 0.5em;
             }
             
-            background-image: url('/assets/img/tophat128.png');
+            background-image: url('/assets/img/blondtommo128.jpg');
+            // background-image: url('/assets/img/tophat128.png');
             background-repeat: no-repeat;
             background-position: center bottom;
             background-size: contain;
+
+            border-radius: 12px;
 
             filter: brightness(0.8);
         }
@@ -127,6 +130,8 @@ header {
                     
                     @include on-big-screen {
                         padding-bottom: 2px;
+                        
+                        // deliberately the same colour as the background 
                         border-bottom: 2px solid $accentDarkIsh;
 
                         @include in-light-mode {
@@ -176,7 +181,7 @@ header {
 }
 
 aside#bi-bar {
-    visibility: hidden;
+    // visibility: hidden;
     display: block;
     max-width: #{$width}em;
     margin: 0 auto;

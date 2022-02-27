@@ -12,4 +12,6 @@ A web-app that monitors CeX (webuy.com) and allows you to be notified via email 
 
 Written in <i class="fab fa-php" aria-hidden="true"></i> PHP.
 
-- [View the Code &raquo;](https://git.tomr.me/tom/cex-scout)
+<a href="https://git.tomr.me/tom/cex-scout" class="button">
+    <i class="fas fa-file-code fa-fw"></i> View the Code <span class="moving-icon" aria-hidden="true">&raquo;</span>
+</a>

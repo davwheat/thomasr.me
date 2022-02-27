@@ -24,7 +24,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="language" content="en-GB">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="{% if page.hidden %}noindex, follow{% else %}index, follow{% endif %}">
+<meta name="robots" content="{% if page.hidden or jekyll.environment != 'production' %}noindex, follow{% else %}index, follow{% endif %}">
 
 <!-- seo -->
 <meta name="title" content="{{ page.title }} &mdash; {{ site.title }}">
