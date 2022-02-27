@@ -20,22 +20,21 @@ menus:
 </a>
 
 ### Or try one of the experiments below:
-<div>
-<!-- this should be a <ul> but it doesn't matter *that* much -->
-<br>
-<a href="/flickr/photosets" class="button">
-    <i class="fas fa-list fa-fw"></i> Albums
-</a>
+<div class="button-group">
+    <!-- this should be a <ul> but it doesn't matter *that* much -->
+    <a href="/flickr/photosets" class="button">
+        <i class="fas fa-list fa-fw"></i> Albums
+    </a>
 
-<a href="/flickr/photos" class="button">
-    <i class="fas fa-images fa-fw"></i> Photos
-</a>
+    <a href="/flickr/photos" class="button">
+        <i class="fas fa-images fa-fw"></i> Photos
+    </a>
 
-<a href="/flickr/map" class="button">
-    <i class="fas fa-map-marked fa-fw"></i> Map
-</a>
+    <a href="/flickr/map" class="button">
+        <i class="fas fa-map-marked fa-fw"></i> Map
+    </a>
 
-<a href="/flickr/map/stations" class="button">
-    <i class="fas fa-train fa-fw"></i> Station Map
-</a>
+    <a href="/flickr/map/stations" class="button">
+        <i class="fas fa-train fa-fw"></i> Station Map
+    </a>
 </div>

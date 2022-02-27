@@ -146,6 +146,14 @@ a.button {
     }
 }
 
+.button-group {
+    margin-bottom: 1em;
+
+    a.button {
+        margin: 8px 2px;
+    }
+}
+
 hr {
     background-color: $accent;
     // background: linear-gradient(90deg,
