@@ -34,7 +34,7 @@
 }
 
 body#projects {
-    ul {
+    ul#project-list {
         margin: 0;
         padding: 0;
         list-style: none;
@@ -69,7 +69,7 @@ body#projects {
                     text-decoration: none;
                 }
 
-                a:hover {
+                a:hover, a:focus {
                     span.project-name {
                         text-decoration: none;
                     }
@@ -87,6 +87,12 @@ body#projects {
                     margin: 0;
                 }
             }
+        }
+    }
+
+    ul#smaller-projects-list {
+        a:first-of-type {
+            font-weight: bold;
         }
     }
 }
