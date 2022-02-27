@@ -16,11 +16,15 @@ menus:
 
 Hello! My name is Thomas<sup>he/him</sup>, but it's easier to write Tom. I'm an IT student from the middle of the UK. This is my (superfluous) home on the internet!
 
-## Contact
+I'm particularly interested in systems administration and network architecture and how networks&mdash;from as small as one's home to the entire internet&mdash;are built. I maintan a [homelab](https://wiki.TomR.me/lab) where I can play with various bits and pieces (it also hosts many applications & services!).
+
+Tangentially, I sometimes make [web toys &amp; sites](/projects) and also [take far too many pictures](/photog).
+
+## Contact &amp; Links
 
 <div class="button-group">
   <a class="button no-link" id="js-email">
-      <i class="fas fa-envelope fa-fw" aria-hidden="true">></i> <span id="js-email-text">Hi [at] TomR [dot] me</span>
+      <i class="fas fa-envelope fa-fw" aria-hidden="true"></i> <span id="js-email-text">Hi [at] TomR [dot] me</span>
   </a>
 
   <a href="https://twitter.com/{{ site.twitter }}" class="button">
