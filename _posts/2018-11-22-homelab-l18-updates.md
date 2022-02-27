@@ -14,7 +14,7 @@ outdated: true
 Morning all! Haven't posted here in a while, so I thought I'd give some updates regarding an older post - [the one about my server/homelab](/2018/proliant/). A lot (ish) has changed since January, so let's dive straight in.
 
 ## Hardware
-While the [Proliant](/faq/tech#proliant) featured in the initial *"review"* is still my primary server, I have given it a couple of upgrades. For a start, my network-storage needs are no longer handled by a shoddy WD Mybook drive hooked up over USB 2. The server is now fitted with (2) 2TB WD Blacks in RAID 0 (living on the edge!) for a combined total of 4TB (3.6TB formatted). Again in regards to storage, the measly 32GB SSD has been replaced with a 120GB one, which despite being from Kingston and not being particularly suited for this envrironment, performs more than adequately for running a few VMs and containers.
+While the Proliant featured in the initial *"review"* is still my primary server, I have given it a couple of upgrades. For a start, my network-storage needs are no longer handled by a shoddy WD Mybook drive hooked up over USB 2. The server is now fitted with (2) 2TB WD Blacks in RAID 0 (living on the edge!) for a combined total of 4TB (3.6TB formatted). Again in regards to storage, the measly 32GB SSD has been replaced with a 120GB one, which despite being from Kingston and not being particularly suited for this environment, performs more than adequately for running a few VMs and containers.
 
 {% include legacy/image.html path="black-install.jpg" caption="One of the WD Black drives before it was inserted into the server" %}
 
@@ -24,7 +24,7 @@ The mention of VMs and containers previously brings me onto software; no longer 
 {% include legacy/image.html path="proxmox-backup.png" caption="Another example of Proxmox's usefulness: easy set up of automated backups of everything" %}
 
 ## Programs/Services
-I know that programs and services are technically software in and of themselves, but there's a bit to talk about here so I deem the seperate heading worthy.
+I know that programs and services are technically software in and of themselves, but there's a bit to talk about here so I deem the separate heading worthy.
 
 Here's basically everything I have running at the moment, although I often install things briefly just to play around with:
 
@@ -32,7 +32,7 @@ Here's basically everything I have running at the moment, although I often insta
 - **Ombi**: Ties in with Emby and allows friends to request media for me to acquire and host on the Emby.
 - **SMB**: Due to its multiplatform support, SMB is my primary method of network file transfer. I make use of **Webmin** to manage shares and configuration here.
 - **Deluge**: I run Deluge as a headless daemon with a web interface for any Linux ISOs I might need to download overnight.
-- **Apache**: Apache is my HTTP server of choice and I have a few apps running under it, such as Dokuwiki.
+- **Apache**: Apache is my HTTP server of choice and I have a few apps running under it, such as DokuWiki.
 - **GitLab**: While heavy on resources and over-the-top for what I need, GitLab is an excellent option for self-hosting Git repositories.
 - **Grafana**: Grafana goes hand in hand with **InfluxDB** to display system metrics and statistics for the plethora of VMs and containers as well as my other smaller devices. I primarily use **Telegraf** to send statistics to the database.
 - **UNMS**: While not strictly required, I much prefer the look of UNMS over my stock EdgeRouter interface and it could come in handy in the future if I get more Ubnt kit.
@@ -51,5 +51,5 @@ While not strictly homelab related, I should touch upon a common question others
 {% include legacy/quote.html quote="Why do you still use [Google Photos/Twitter/Insert Service Here] when you're all about FOSS and that?" author="people" %}
 
 What it all boils down to is **convenience**.  
-Google Photos is simply best-in-class when it comes to web interfaces to manage photos. While I disagree with the data collection and the cost I have to pay to keep original-quality photos, those are small sacrifies for the convenience and the rich featureset that Google Photos offers.  
+Google Photos is simply best-in-class when it comes to web interfaces to manage photos. While I disagree with the data collection and the cost I have to pay to keep original-quality photos, those are small sacrifices for the convenience and the rich feature-set that Google Photos offers.  
 It is a similar story with Twitter. I attempted to use Mastodon for a good while; I wanted to like it. The problem was simply lack of adoption. Everyone I would want to follow (bar perhaps Bryan Lunduke) are on Twitter. Not to mention the polish that has gone into making Twitter be as soom as possible to use - something you can't really match as a one-man-band.

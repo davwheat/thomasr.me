@@ -13,7 +13,7 @@ medium: https://blog.dnomaid.co.uk/my-first-real-experience-with-linux-1be8ffcb7
 I’ve used Windows for as long as I’ve used computers, but a couple weeks ago I decided I would install some flavour of Linux onto my laptop, to see if I liked it. This post will document my first impressions and overall experience with the OS.
 
 ### Choosing a distro
-This was one of the hardest parts. I wanted something that looked nice, was slick to use and had good compatibility. I used a secondary laptop to test out a few distros, and decided that I liked the look of Solus OS. There was one issue however: Solus is built from scratch, and is therefore not compatible with popular Linux software. I hated the way Ubuntu looked, but I loved the amount of programs it supported. See where this is going yet?
+This was one of the hardest parts. I wanted something that looked nice, was slick to use and had good compatibility. I used a secondary laptop to test out a few distros and decided that I liked the look of Solus OS. There was one issue however: Solus is built from scratch and is therefore not compatible with popular Linux software. I hated the way Ubuntu looked, but I loved the amount of programs it supported. See where this is going yet?
 
 {% include legacy/image.html path="budgie.png" caption="The default Ubuntu Budgie desktop." credit="ubuntubudgie.org" %}
 
@@ -43,9 +43,9 @@ I located my laptop’s GPU on Nvidia’s website and downloaded the suggested v
 After rebooting, my laptop’s screen presented me with an FDISK message telling me that my drive was clean. I waited a bit for it to do something, and nothing happened. Force shutting down the system did nothing; it still booted into the same message. Assuming this was the fault of the Nvidia driver, I booted into recovery mode and removed all Nvidia packages. As I expected, this fixed my issue. Not wanting to go through even more hassle, I decided to just live with integrated graphics.
 
 ### Games & Software Compatibility
-{% include legacy/image.html path="software.png" caption="The software center." %}
+{% include legacy/image.html path="software.png" caption="The software centre." %}
 
-I was pleasantly surprised with the amount of applications available in the software center, and I was able to install most of my required programs using it. Sadly, a few programs I use aren't available on Linux, but I was able to find decent alternatives for most of them. For things like Sony Vegas and the Adobe suite I just reboot into Windows and use them there; no fancy virtual machines for me just yet.
+I was pleasantly surprised with the amount of applications available in the software centre, and I was able to install most of my required programs using it. Sadly, a few programs I use aren't available on Linux, but I was able to find decent alternatives for most of them. For things like Sony Vegas and the Adobe suite I just reboot into Windows and use them there; no fancy virtual machines for me just yet.
 
 Games on the other hand are a different story. Only 46 out of my 96 Steam games are playable on Linux. Luckily most of my favourites work, but a lot of them don’t.
 
@@ -59,7 +59,7 @@ The Nautilus file manager was able to connect to my SMB network shares just fine
 -- Searching for issues and support yield more helpful answers.
 
 
--- Programs are far easier to install (both from the software center and the terminal) due to the lack of “next, next, next” installers.
+-- Programs are far easier to install (both from the software centre and the terminal) due to the lack of “next, next, next” installers.
 
 ### Closing Thoughts
 Overall, my experience with Linux (specifically Ubuntu Budgie) has been really nice. So nice in fact, that I’m now using it way more than Windows!
