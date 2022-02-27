@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Twitter Bot
-description: "what is a @itsmeimabot?"
+description: "What is a @itsmeimabot?"
 permalink: /projects/twitterbot/
 ---
 
-the [@itsmeimabot](https://twitter.com/itsmeimabot) Twitter account posts a (usually gibberish) tweet every few minutes which it has generated from snippets of my past tweets/rts.
+The [@itsmeimabot](https://twitter.com/itsmeimabot) was a Twitter account that used to post gibberish that it had generated from my previous Tweets. It is no longer operational.
 
 
-if you'd like to make your own, it's literally just powered using google sheets. here's [the guide i used](https://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/) (i think).
+If you'd like to make your own, it was powered by Google Sheets. Here's [the guide that I used](https://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/) (I think).
