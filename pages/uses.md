@@ -21,7 +21,7 @@ Inspired by [uses.tech](https://uses.tech/) (and especially [Tai's page](https:/
 - I **type** on a [DASkeyboard Prime 13](https://www.daskeyboard.com/p/prime13-mechanical-keyboard/) with MX Browns
 - I **procrastinate** with an [iPhone 12 mini](https://www.apple.com/uk/iphone-12/)
 - I **tell the time** with a [Apple Watch](https://www.apple.com/uk/watch) Series 4
-- I **listen** with [Sennheiser HD 58X Jubilee](https://drop.com/buy/massdrop-x-sennheiser-hd-58x-jubilee-headphones) headphones and the obligatory [Airpods](https://www.apple.com/uk/airpods/)
+- I **listen** with [Sennheiser HD 58X Jubilee](https://drop.com/buy/massdrop-x-sennheiser-hd-58x-jubilee-headphones) headphones and the obligatory [Airpods Pros](https://www.apple.com/uk/airpods/)
 - I **babysit** a [homelab](https://wiki.tomr.me/lab)
 
 ## Software
@@ -34,8 +34,10 @@ Inspired by [uses.tech](https://uses.tech/) (and especially [Tai's page](https:/
 ## Services
 - I **email** with [Exchange](https://www.microsoft.com/en-gb/microsoft-365/exchange/email)
 - I **host** with [Vercel](https://vercel.com/), [Github Pages](https://pages.github.com/) &amp; [NGINX](https://www.nginx.com/)
-- I **dns** with [CloudFlare](https://www.cloudflare.com/en-gb/)
-- I **push to** [GitHub](https://github.com/itsmeimtom) and [hosted GitLab](https://git.tomr.me)
+- I **dns** with [Cloudflare](https://www.cloudflare.com/en-gb/)
+- I **domain** with [Porkbun](https://porkbun.com/)
+- I **push to** [GitHub](https://github.com/itsmeimtom) and [hosted 
+GitLab](https://git.tomr.me)
 - I **stay organised** with [Notion](https://notion.so/imtom) (see [my wiki](https://wiki.tomr.me)!)
 - I **store documents** on Google Drive
 - I **store photos** in iCloud Photos

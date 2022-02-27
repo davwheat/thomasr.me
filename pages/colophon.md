@@ -5,17 +5,21 @@ permalink: /about/this-site/
 description: Info about this site
 ---
 
-- Statically generated with Jekyll.
-- Styled with SCSS, scripted with JS.
-- Hosted with Vercel from Source on GitHub.
+- Statically generated with Jekyll
+- Styled with SCSS, scripted with JS
+- Hosted with Vercel
 - Typed in VS Code
+
+<a href="https://github.com/{{site.github}}/thomasr.me" class="button">
+    <i class="fab fa-fw fa-github"></i> Source Code on GitHub
+</a>
 
 
 # Jekyll
 
-- Jekyll Version **{{ jekyll.version }}**
-- Jekyll Environment **{{ jekyll.environment }}** 
-- Built Started at **{{ site.time | date: '%Y-%m-%d %H:%M' }}**
+- Jekyll Version<br>**{{ jekyll.version }}**
+- Jekyll Environment<br>**{{ jekyll.environment }}** 
+- Built Started at<br>**{{ site.time | date: '%Y-%m-%d %H:%M' }}**
 - **{{ site.pages.size }}** Pages
 - **{{ site.posts.size }}** Posts (**{{ site.categories.size }}** cats, **{{ site.tags.size }}** tags)
 - **{{ site.documents.size }}** Pages in Collections

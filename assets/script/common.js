@@ -31,3 +31,19 @@ if(window.location.pathname == '/' || !localStorage.visited) {
   localStorage.setItem('visited', 'visited');
 }
 //----------------------------------------------------------------------
+
+
+//-----------footer message---------------------------------------------
+if(hash.replace('#','').includes('tomr')) {
+  if(!localStorage.tomr) {
+    const TomRmessage = document.createElement('p');
+    TomRmessage.classList.add('smol');
+    TomRmessage.innerHTML = `
+      <br>Looks like you came here from TomR.me! <a href="/hello-from/tomr">What does that mean</a>?
+    `;
+
+    document.querySelector('footer').appendChild(TomRmessage);
+    localStorage.setItem('tomr', 'shown');
+  }
+}
+//----------------------------------------------------------------------

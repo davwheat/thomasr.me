@@ -48,7 +48,7 @@ Almost all of the games I’ve thrown at it have run surprisingly well, and at d
 
 ---
 
-Internet browsing is OK, but the WiFi adapter only supports 2.4GHz signals and seems to max out at 50Mbps, even on a 150Mbps network. Luckily this is only evident when trying to watch 1080p YouTube videos, and isn’t too noticeable doing anything else. Programming is rather fast too. Atom takes a while to open, but once it’s ready, it runs well.
+Internet browsing is OK, but the WiFi adapter only supports 2.4GHz signals and seems to max out at 50Mbps, even on a 150Mbps network. Luckily this is only evident when trying to watch 1080p YouTube videos and isn’t too noticeable doing anything else. Programming is rather fast too. Atom takes a while to open, but once it’s ready, it runs well.
 
 {% include legacy/image.html path="wifi.png" caption="The unimpressive WiFi speeds." %}
 
@@ -58,7 +58,7 @@ Using Sony Vegas 13 to edit 720p and 1080p video is also surprisingly snappy alt
 
 {% include legacy/image.html path="render.png" caption="Rendering in Sony Vegas" %}
 
-Recording videos using OBS also works well, but does require some tinkering with the NVIDIA control panel if you want to switch between monitor and game capture.
+Recording videos using OBS also works well but does require some tinkering with the NVIDIA control panel if you want to switch between monitor and game capture.
 
 {% include legacy/image.html path="obs.png" caption="/img/posts/ASUS X556UB follow up review after a month/obs.png" %}
 
