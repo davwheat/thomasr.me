@@ -18,7 +18,9 @@ Hello! My name is Thomas<sup>he/him</sup>, but it's easier to write Tom. I'm an 
 
 I'm particularly interested in systems administration and network architecture and how networks&mdash;from as small as one's home to the entire internet&mdash;are built. I maintan a [homelab](https://wiki.TomR.me/lab) where I can play with various bits and pieces (it also hosts many applications & services!).
 
-Tangentially, I sometimes make [web toys &amp; sites](/projects) and also [take far too many pictures](/photog).
+Tangentially, I sometimes make [web toys &amp; sites](/projects) and  [take far too many pictures](/photog).
+
+You can see what hardware, software and services I make use of on my [Uses Page](/uses).
 
 ## Contact &amp; Links
 
