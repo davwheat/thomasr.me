@@ -6,7 +6,6 @@ overwritelink: https://wiki.tomr.me
 ordering: 1
 lang: "Notion"
 output: false
-hidden: true
 ---
 
 <a href="https://wiki.tomr.me" class="button">

@@ -4,6 +4,7 @@ title: "Markdown Test Page"
 description: "For testing styling!"
 permalink: /md-test/
 hidden: true
+sitemap: false
 ---
 
 # Markdown: Syntax
