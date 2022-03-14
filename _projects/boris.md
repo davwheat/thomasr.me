@@ -8,7 +8,7 @@ lang: "Svelte, CSS"
 ordering: 10
 ---
 
-{{ page.longdescription }}.
+Wrote the front-end for isborisg.one, a {{ page.longdescription | replace_first: "S", "s" }}.
 
 Written in <i class="fab fa-js-square" aria-hidden="true"></i> Svelte, <i class="fab fa-css3" aria-hidden="true"></i> CSS.
 
