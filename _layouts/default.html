@@ -29,14 +29,16 @@ jekyll {{ jekyll.environment }} build started at {{ site.time }}
     </header>
     
     <main>
-        <article>
-            {% if page.nometa != true %}
-                {% if page.layout == 'post' %}
-                    {% include post-meta.html %}
-                {% else %}
-                    {% include page-meta.html %}
-                {% endif %}
+        {% if page.nometa != true %}
+            <article aria-labelledby="page-title">
+            {% if page.layout == 'post' %}
+                {% include post-meta.html %}
+            {% else %}
+                {% include page-meta.html %}
             {% endif %}
+        {% else %}
+            <article>
+        {% endif %}
 
             {{ content }}
         </article>
