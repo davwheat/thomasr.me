@@ -26,24 +26,25 @@ You can see what hardware, software and services I make use of on my [Uses Page]
 
 <div class="button-group">
   <a class="button no-link" id="js-email">
-      <i class="fas fa-envelope fa-fw" aria-hidden="true"></i> <span id="js-email-text">Hi [at] TomR [dot] me</span>
+      <i class="fas fa-envelope fa-fw" aria-hidden="true"></i> <span id="js-email-text">me [at] TomR [dot] me</span>
   </a>
 
-  <a href="https://twitter.com/{{ site.twitter }}" class="button">
+  <!-- <a href="https://twitter.com/{{ site.twitter }}" class="button">
       <i class="fab fa-twitter fa-fw" aria-hidden="true"></i> @{{ site.twitter }}
-  </a>
+  </a> -->
 
   <a href="https://github.com/{{ site.github }}" class="button">
       <i class="fab fa-github fa-fw" aria-hidden="true"></i> @{{ site.github }}
   </a>
 
+  
+  <a href="https://www.linkedin.com/in/{{ site.lin }}" class="button">
+      <i class="fab fa-linkedin fa-fw" aria-hidden="true"></i> @{{ site.lin }}
+  </a>
+
   <a href="https://www.last.fm/user/{{ site.lfm }}" class="button">
       <i class="fab fa-lastfm fa-fw" aria-hidden="true"></i> {{ site.lfm }}
   </a>
-
-  <!-- <a href="https://www.linkedin.com/in/{{ site.lin }}" class="button">
-      <i class="fab fa-linkedin fa-fw" aria-hidden="true"></i> @{{ site.lin }}
-  </a> -->
   
 </div>
 
@@ -59,7 +60,7 @@ Yes :)
 No, although I think he picked a lovely alias to go by. I'm also not a basketballer, footballer or politician&mdash;turns out I have pretty common name.
 
 <script>
-const email = atob("aGlAdG9tci5tZQ==");
+const email = atob('bWVAVG9tUi5tZQ==');
 document.getElementById('js-email-text').innerHTML = email;
 document.getElementById('js-email').href = `mailto:${email}`;
 document.getElementById('js-email').classList.remove('no-link');
