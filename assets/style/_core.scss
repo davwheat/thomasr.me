@@ -23,13 +23,13 @@ body {
 
     @include on-big-screen {
         &.wide {
-            article.container {
+            main.container {
                 max-width: calc(100% - 16px);
             }
         }
 
         &.wide-ish {
-            article.container  {
+            main.container  {
                 max-width: #{$width * 1.25}em;
             }
         }
@@ -166,12 +166,12 @@ hr {
     max-width: #{$width / 5}em;
 }
 
-article.container {
+main.container {
     max-width: #{$width}em;
     margin: 0 auto;
 }
 
-main {
+article {
     text-transform: none;
 
     h1,
@@ -195,7 +195,7 @@ main {
         margin-top: 0.25em;
     }
 
-    aside.callout {
+    figure.callout {
         // same as a.button above
 
         display: inline-block;

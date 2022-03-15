@@ -38,9 +38,9 @@ sass:
 highlighter: rouge
 
 compress_html:
-  clippings: all
-  comments: all
-  blanklines: false
+  blanklines: true
+  ignore:
+    envs: ["development"]
 
 plugins:
   # - jekyll-redirect-from

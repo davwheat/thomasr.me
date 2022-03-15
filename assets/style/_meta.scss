@@ -1,7 +1,7 @@
-aside#page-meta, aside#post-meta {
+header#page-meta, header#post-meta {
     // max-width: #{$width}em;
     margin: 1em auto;
-    padding-top: 4px;
+    padding-top: 1em;
 
     h1 {
         color: $accentLightIsh;
