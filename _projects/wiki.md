@@ -9,5 +9,5 @@ output: false
 ---
 
 <a href="https://wiki.tomr.me" class="button">
-    <i class="fas fa-fw fa-external-link-alt"></i> Visit <span class="moving-icon" aria-hidden="true">&raquo;</span>
+    <i class="fas fa-fw fa-external-link-alt" aria-hidden="true"></i> Visit <span class="moving-icon" aria-hidden="true">&raquo;</span>
 </a>

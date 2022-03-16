@@ -14,10 +14,10 @@ Written in <i class="fab fa-js-square" aria-hidden="true"></i> JavaScript.
 
 <div class="button-group">
     <a href="/speedtestdotnetcsvmap" class="button">
-        <i class="fas fa-globe fa-fw"></i> Visit the Website <span class="moving-icon" aria-hidden="true">&raquo;</span>
+        <i class="fas fa-globe fa-fw" aria-hidden="true"></i> Visit the Website <span class="moving-icon" aria-hidden="true">&raquo;</span>
     </a>
 
     <a href="https://github.com/#GITHUB#/speedtestdotnetcsvmap" class="button">
-        <i class="fas fa-file-code fa-fw"></i> View the Code<span class="moving-icon" aria-hidden="true">&raquo;</span>
+        <i class="fas fa-file-code fa-fw" aria-hidden="true"></i> View the Code<span class="moving-icon" aria-hidden="true">&raquo;</span>
     </a>
 </div>
