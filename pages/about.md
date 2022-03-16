@@ -26,23 +26,28 @@ You can see what hardware, software and services I make use of on my [Uses Page]
 
 <div class="button-group">
   <a class="button no-link" id="js-email">
+      <span class="sr-only">Email Address</span>
       <i class="fas fa-envelope fa-fw" aria-hidden="true"></i> <span id="js-email-text">me [at] TomR [dot] me</span>
   </a>
 
   <!-- <a href="https://twitter.com/{{ site.twitter }}" class="button">
+      <span class="sr-only">Twitter Profile</span>
       <i class="fab fa-twitter fa-fw" aria-hidden="true"></i> @{{ site.twitter }}
   </a> -->
 
   <a href="https://github.com/{{ site.github }}" class="button">
+      <span class="sr-only">GitHub Profile</span>
       <i class="fab fa-github fa-fw" aria-hidden="true"></i> @{{ site.github }}
   </a>
 
   
   <a href="https://www.linkedin.com/in/{{ site.lin }}" class="button">
+      <span class="sr-only">LinkedIn Profile</span>
       <i class="fab fa-linkedin fa-fw" aria-hidden="true"></i> @{{ site.lin }}
   </a>
 
   <a href="https://www.last.fm/user/{{ site.lfm }}" class="button">
+      <span class="sr-only">Last.FM Profile</span>
       <i class="fab fa-lastfm fa-fw" aria-hidden="true"></i> {{ site.lfm }}
   </a>
   
