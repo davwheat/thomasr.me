@@ -1,20 +1,20 @@
 ---
-# layout: compress
+layout: compress
 ---
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}en-GB{% endif %}">
 
 <!-- 
 thomas robinson, aka @itsmeimtom
     thomasr.me / trobinson.me / tomr.me
-
+-
 code for this site:
-https://github.com/{{site.github}}/thomasr.me
-
+    https://github.com/{{site.github}}/thomasr.me
+-
 code for this page:
-https://github.com/{{site.github}}/thomasr.me/blob/master/{{ page.path }}
+    https://github.com/{{site.github}}/thomasr.me/blob/master/{{ page.path }}
     last modified at {{ page.last_modified_at | date: '%Y-%m-%d %H:%M' }}
-
+-
 jekyll {{ jekyll.environment }} build started at {{ site.time }}
     /about/this-site/
 -->
@@ -24,22 +24,25 @@ jekyll {{ jekyll.environment }} build started at {{ site.time }}
 </head>
 <body class="{% if page.wide == 'ish' %}wide-ish{% elsif page.wide %}wide{% endif %}" {% if page.id %}id="{{ page.id }}"{% endif %}>
     <aside id="bi-bar" aria-hidden="true"></aside>
-    <header>
+    <header id="site-header">
         {% include header.html %}
     </header>
     
-    <article class="container">
+    <main>
         {% if page.nometa != true %}
+            <article aria-labelledby="page-title">
             {% if page.layout == 'post' %}
                 {% include post-meta.html %}
             {% else %}
                 {% include page-meta.html %}
             {% endif %}
+        {% else %}
+            <article>
         {% endif %}
-        <main>
+
             {{ content }}
-        </main>
-    </article>
+        </article>
+    </main>
 
     {% if page.nometa != true %}
     <footer>

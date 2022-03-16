@@ -14,10 +14,10 @@ Using <i class="fas fa-vial" aria-hidden="true"></i> Jekyll as a CMS. Written in
 
 <div class="button-group">
     <a href="https://magiccap.me" class="button big-border">
-        <i class="fas fa-globe fa-fw"></i> Visit the Website <span class="moving-icon" aria-hidden="true">&raquo;</span>
+        <i class="fas fa-globe fa-fw" aria-hidden="true"></i> Visit the Website <span class="moving-icon" aria-hidden="true">&raquo;</span>
     </a>
 
     <a href="https://github.com/MagicCap/MagicCap.me" class="button">
-        <i class="fas fa-file-code fa-fw"></i> View the Code<span class="moving-icon" aria-hidden="true">&raquo;</span>
+        <i class="fas fa-file-code fa-fw" aria-hidden="true"></i> View the Code<span class="moving-icon" aria-hidden="true">&raquo;</span>
     </a>
 </div>

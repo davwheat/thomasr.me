@@ -13,5 +13,5 @@ Wrote the front-end for isborisg.one, a {{ page.longdescription | replace_first:
 Written in <i class="fab fa-js-square" aria-hidden="true"></i> Svelte, <i class="fab fa-css3" aria-hidden="true"></i> CSS.
 
 <a href="https://isborisg.one" class="button">
-        <i class="fas fa-globe fa-fw"></i> Visit the Website <span class="moving-icon" aria-hidden="true">&raquo;</span>
+        <i class="fas fa-globe fa-fw" aria-hidden="true"></i> Visit the Website <span class="moving-icon" aria-hidden="true">&raquo;</span>
 </a>
