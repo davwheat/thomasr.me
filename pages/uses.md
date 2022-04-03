@@ -32,7 +32,7 @@ Inspired by [uses.tech](https://uses.tech/) (and especially [Tai's page](https:/
 - I **commit** with [GitKraken](https://www.gitkraken.com/)
 
 ## Services
-- I **email** with [Exchange](https://www.microsoft.com/en-gb/microsoft-365/exchange/email)
+- I **email** with [Migadu](https://www.migadu.com/)
 - I **host** with [Vercel](https://vercel.com/), [Github Pages](https://pages.github.com/) &amp; [NGINX](https://www.nginx.com/)
 - I **dns** with [Cloudflare](https://www.cloudflare.com/en-gb/)
 - I **domain** with [Porkbun](https://porkbun.com/)
