@@ -30,6 +30,13 @@ You can see what hardware, software and services I make use of on my [Uses Page]
       <i class="fas fa-envelope fa-fw" aria-hidden="true"></i> <span id="js-email-text">me [at] TomR [dot] me</span>
   </a>
 
+<a href="https://keybase.io/itsmeimtom/pgp_keys.asc" class="button">
+      <i class="fas fa-lock fa-fw" aria-hidden="true"></i> BE73 4B2B BBDD 8864
+</a>
+
+<br>
+
+
   <!-- <a href="https://twitter.com/{{ site.twitter }}" class="button">
       <span class="sr-only">Twitter Profile</span>
       <i class="fab fa-twitter fa-fw" aria-hidden="true"></i> @{{ site.twitter }}
